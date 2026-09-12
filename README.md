@@ -1,5 +1,7 @@
 # 机器学习学习笔记 · Jupyter Notebook
 
+在线阅读：[ML Atlas · 机器学习手记](https://fxt-gw-pb.github.io/MachineLearningNotebooks/)。按章节探索 185 份笔记，阅读数学公式、语法高亮代码、数据表和真实运行图形；支持搜索、复制代码、展开长代码及放大图形。网站源代码位于 `website/`，通过 GitHub Actions 自动发布到 GitHub Pages。
+
 由原目录的 201 份 Markdown 转写而来，共 **185 份 Notebook**，按原来的 20 个章节存放。每份均保留理论、公式与可运行案例，附有实际执行输出。
 
 ## 从 GitHub 下载完整内容
