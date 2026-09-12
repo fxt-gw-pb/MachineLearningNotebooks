@@ -7,6 +7,8 @@ const asset=p=>new URL(p,BASE).href;
 let catalog;let currentLesson;let requestId=0;let lessonCache=new Map();
 let viewMode='full';let searchQuery='';let activeHeadingObserver;let plotObserver;let plotlyPromise;
 const mobileMenu=matchMedia('(max-width:760px)');
+let sidebarCollapsed=false;
+try{sidebarCollapsed=localStorage.getItem('ml-atlas-sidebar-collapsed')==='1';}catch{}
 const loadJson=async p=>{const r=await fetch(asset(p));if(!r.ok)throw new Error('内容暂时无法加载');return r.json();};
 const icons=()=>window.lucide?.createIcons({attrs:{'stroke-width':1.7}});
 const lessonLink=l=>`#/lesson/${l.id}`;
@@ -15,6 +17,7 @@ function sidebar(chapterId){
   return `<aside class="sidebar" id="sidebar">
     <a class="brand" href="#/"><img src="${asset('favicon.svg')}" alt=""/><span>ML <b>Atlas</b><small>机器学习手记</small></span></a>
     <button class="sidebar-close icon-button" data-close-menu-button aria-label="关闭章节目录">${icon('x')}</button>
+    <button class="sidebar-collapse icon-button" data-sidebar-collapse aria-controls="sidebar" aria-expanded="true" aria-label="收起左侧栏" title="收起左侧栏">${icon('panel-left-close')}</button>
     <div class="sidebar-caption">YOUR LEARNING ATLAS</div>
     <a class="overview-link ${!chapterId?'active':''}" href="#/">${icon('layout-grid')}<span>课程总览</span>${icon('arrow-up-right')}</a>
     <div class="nav-title">学习目录 <span>20 CHAPTERS</span></div>
@@ -28,14 +31,16 @@ function sidebar(chapterId){
 }
 function shell(body,chapterId=null,crumb='课程总览'){
   app.innerHTML=`${sidebar(chapterId)}<div class="sidebar-backdrop" data-close-menu></div><div class="workspace">
-    <header class="topbar"><div class="breadcrumb"><button class="icon-button menu-button" aria-label="打开章节目录" data-menu>${icon('menu')}</button><a href="#/">学习空间</a>${icon('chevron-right')}<span>${esc(crumb)}</span></div>
+    <header class="topbar"><div class="breadcrumb"><button class="icon-button menu-button" aria-label="打开章节目录" data-menu>${icon('menu')}</button><button class="icon-button sidebar-restore" data-sidebar-expand aria-controls="sidebar" aria-expanded="false" aria-label="展开左侧栏" title="展开左侧栏">${icon('panel-left-open')}</button><a href="#/">学习空间</a>${icon('chevron-right')}<span>${esc(crumb)}</span></div>
       <div class="topbar-right"><span class="edition">THE NOTEBOOK COLLECTION <b>01—20</b></span><a class="github-link" href="${REPO}" target="_blank" rel="noopener noreferrer">${icon('github')}<span>GitHub</span>${icon('arrow-up-right')}</a></div>
     </header><main id="main-content" tabindex="-1">${body}</main><footer class="site-footer"><a href="#/">ML Atlas <span>机器学习手记</span></a><span>从原理到实践 · 用代码理解算法</span><a href="${REPO}" target="_blank" rel="noopener noreferrer">在 GitHub 查看源文件 ${icon('arrow-up-right')}</a></footer></div>`;
   icons();bindShell();
 }
 function bindShell(){
-  document.querySelector('#sidebar').toggleAttribute('inert',mobileMenu.matches);
-  document.querySelector('#sidebar').setAttribute('aria-hidden',String(mobileMenu.matches));
+  syncSidebarState();
+  document.querySelector('[data-sidebar-collapse]')?.addEventListener('click',()=>setSidebarCollapsed(true));
+  document.querySelector('[data-sidebar-expand]')?.addEventListener('click',()=>setSidebarCollapsed(false));
+  document.querySelector('.workspace')?.addEventListener('transitionend',e=>{if(e.propertyName==='margin-left')window.dispatchEvent(new Event('resize'));});
   document.querySelector('[data-menu]')?.addEventListener('click',()=>{
     document.body.classList.add('menu-open');document.querySelector('#sidebar').removeAttribute('inert');
     document.querySelector('#sidebar').setAttribute('aria-hidden','false');
@@ -44,7 +49,24 @@ function bindShell(){
   document.querySelector('[data-close-menu]')?.addEventListener('click',closeMenu);
   document.querySelector('[data-close-menu-button]')?.addEventListener('click',()=>{closeMenu();document.querySelector('[data-menu]')?.focus();});
 }
-function closeMenu(){document.body.classList.remove('menu-open');const side=document.querySelector('#sidebar'),work=document.querySelector('.workspace');if(side){side.toggleAttribute('inert',mobileMenu.matches);side.setAttribute('aria-hidden',String(mobileMenu.matches));}if(work)work.removeAttribute('inert');}
+function syncSidebarState(){
+  const menuOpen=mobileMenu.matches&&document.body.classList.contains('menu-open');
+  const hidden=mobileMenu.matches?!menuOpen:sidebarCollapsed;
+  document.body.classList.toggle('sidebar-collapsed',sidebarCollapsed);
+  const side=document.querySelector('#sidebar'),work=document.querySelector('.workspace');
+  if(side){side.toggleAttribute('inert',hidden);side.setAttribute('aria-hidden',String(hidden));}
+  work?.toggleAttribute('inert',menuOpen);
+  document.querySelectorAll('[data-sidebar-collapse],[data-sidebar-expand]').forEach(b=>b.setAttribute('aria-expanded',String(!hidden)));
+}
+function setSidebarCollapsed(collapsed){
+  sidebarCollapsed=collapsed;
+  try{localStorage.setItem('ml-atlas-sidebar-collapsed',collapsed?'1':'0');}catch{}
+  syncSidebarState();
+  document.querySelector(collapsed?'[data-sidebar-expand]':'[data-sidebar-collapse]')?.focus();
+  document.querySelector('#announcement').textContent=collapsed?'左侧目录已收起':'左侧目录已展开';
+  requestAnimationFrame(()=>window.dispatchEvent(new Event('resize')));
+}
+function closeMenu(){document.body.classList.remove('menu-open');syncSidebarState();}
 mobileMenu.addEventListener('change',closeMenu);
 function chapterCard(ch){
   const names=ch.lessons.slice(0,3).map(id=>catalog.lessons.find(l=>l.id===id).title);
