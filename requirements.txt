@@ -1,0 +1,27 @@
+# Python 3.11–3.13；以下为实际验证使用的版本。
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+matplotlib==3.10.6
+seaborn==0.13.2
+statsmodels==0.14.5
+xgboost==3.4.0
+lightgbm==4.7.0
+imbalanced-learn==0.14.0
+scikit-image==0.25.2
+Pillow==12.0.0
+plotly==6.3.0
+joblib==1.5.2
+numba==0.62.1
+umap-learn==0.5.12
+scikit-optimize==0.10.2
+bayesian-optimization==3.3.0
+prophet==1.4.0
+pymc==5.28.5
+arviz==0.22.0
+nbformat==5.10.4
+nbclient==0.10.2
+nbconvert==7.16.6
+ipykernel==6.31.0
+jupyterlab==4.4.7

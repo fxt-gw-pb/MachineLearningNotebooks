@@ -1,0 +1,2065 @@
+{
+  "included": [
+    {
+      "source": "1. 回归算法/01. 线性回归.md",
+      "notebook": "1. 回归算法/01. 线性回归.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "监督式特征选择只在训练集拟合，测试集仅应用相同变换。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/02. Ridge回归.md",
+      "notebook": "1. 回归算法/02. Ridge回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "Ridge/Lasso/ElasticNet 比较的标准化统一移入 Pipeline；ElasticNet 的 l1_ratio 不取 0，纯 L2 的情况由 Ridge 演示，避免坐标下降退化。",
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/03. Lasso回归.md",
+      "notebook": "1. 回归算法/03. Lasso回归.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/04. 弹性网络回归.md",
+      "notebook": "1. 回归算法/04. 弹性网络回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/05. 多项式回归.md",
+      "notebook": "1. 回归算法/05. 多项式回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/06. 支持向量回归.md",
+      "notebook": "1. 回归算法/06. 支持向量回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/07. 决策树回归.md",
+      "notebook": "1. 回归算法/07. 决策树回归.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/08. 随机森林回归.md",
+      "notebook": "1. 回归算法/08. 随机森林回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/09. 梯度提升回归.md",
+      "notebook": "1. 回归算法/09. 梯度提升回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/10. 贝叶斯回归.md",
+      "notebook": "1. 回归算法/10. 贝叶斯回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "BostonHousing.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/11. K近邻回归.md",
+      "notebook": "1. 回归算法/11. K近邻回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "KNN 的特征标准化放入 Pipeline，避免大尺度特征主导距离，并修复 pandas Series.data 接口。",
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/12. 高斯过程.md",
+      "notebook": "1. 回归算法/12. 高斯过程.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "高斯过程仍是原来的带噪正弦回归任务，改用 scikit-learn 的 GaussianProcessRegressor，免去 PyTorch/GPyTorch 依赖；区间包含 WhiteKernel 观测噪声。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/13. 广义线性模型.md",
+      "notebook": "1. 回归算法/13. 广义线性模型.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [
+        "AmesHousing.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "本地没有原文的 insurance.csv；Gamma GLM 改为 AmesHousing 的正值 SalePrice，使用居住面积、质量、房屋类型与中央空调作为特征。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/14. 多项式核回归.md",
+      "notebook": "1. 回归算法/14. 多项式核回归.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "1. 回归算法/15. 局部加权回归.md",
+      "notebook": "1. 回归算法/15. 局部加权回归.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "将矩阵伪代码改为 NumPy 运算，并补齐先使用后导入的依赖。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/01. 逻辑回归.md",
+      "notebook": "2. 分类算法/01. 逻辑回归.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [
+        "creditcard.csv"
+      ],
+      "changes": [
+        "SMOTE 属于过采样。调参时用 imbalanced-learn Pipeline 在每个训练折内标准化并过采样，防止合成样本泄漏到验证折。",
+        "信用卡数据默认固定分层抽样 30000 行并保持原类别比例；load_creditcard(sample_size=None) 可读全量数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/02. 决策树.md",
+      "notebook": "2. 分类算法/02. 决策树.ipynb",
+      "python_blocks": 10,
+      "code_cells": 11,
+      "data": [
+        "titanic.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。",
+        "统一本地 Survived 字段名；缺失值填补移入 Pipeline，并删除乘客标识字段。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/03. ID3算法.md",
+      "notebook": "2. 分类算法/03. ID3算法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "信息熵正确处理 0·log(0)，训练与预测复用同一编码。scikit-learn 的 entropy 决策树是二叉 CART；末尾另附离散多分支 ID3 实现，明确两者区别。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/04. C4.5.md",
+      "notebook": "2. 分类算法/04. C4.5.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "保留增益率决策树教学实现；树图使用 Matplotlib 内联绘制，不需要系统 Graphviz。此简化实现使用预剪枝，不实现完整 C4.5 的缺失值分配及后剪枝。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/05. 随机森林.md",
+      "notebook": "2. 分类算法/05. 随机森林.ipynb",
+      "python_blocks": 1,
+      "code_cells": 4,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/06. 支持向量机.md",
+      "notebook": "2. 分类算法/06. 支持向量机.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/07. KNN.md",
+      "notebook": "2. 分类算法/07. KNN.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/08. 朴素贝叶斯.md",
+      "notebook": "2. 分类算法/08. 朴素贝叶斯.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/09. XGBoost.md",
+      "notebook": "2. 分类算法/09. XGBoost.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/10. LightGBM.md",
+      "notebook": "2. 分类算法/10. LightGBM.ipynb",
+      "python_blocks": 10,
+      "code_cells": 11,
+      "data": [
+        "house-prices-advanced-regression-techniques/test.csv",
+        "house-prices-advanced-regression-techniques/train.csv"
+      ],
+      "changes": [
+        "LightGBM 房价案例的缺失值处理移入 Pipeline，训练和预测共用训练集统计量。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "2. 分类算法/11. 高斯混合模型.md",
+      "notebook": "2. 分类算法/11. 高斯混合模型.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/01. Bagging算法.md",
+      "notebook": "3. 集成算法/01. Bagging算法.ipynb",
+      "python_blocks": 2,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/02. Boosting算法.md",
+      "notebook": "3. 集成算法/02. Boosting算法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/03. 堆叠.md",
+      "notebook": "3. 集成算法/03. 堆叠.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "堆叠调参改为对完整 StackingRegressor 交叉验证，避免用基模型对其训练数据的拟合值调优元模型。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/04. 投票法.md",
+      "notebook": "3. 集成算法/04. 投票法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/05. 极端随机森林.md",
+      "notebook": "3. 集成算法/05. 极端随机森林.ipynb",
+      "python_blocks": 10,
+      "code_cells": 11,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/06. 梯度提升.md",
+      "notebook": "3. 集成算法/06. 梯度提升.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/07. 随机森林.md",
+      "notebook": "3. 集成算法/07. 随机森林.ipynb",
+      "python_blocks": 1,
+      "code_cells": 4,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/08. AdaBoost.md",
+      "notebook": "3. 集成算法/08. AdaBoost.ipynb",
+      "python_blocks": 4,
+      "code_cells": 5,
+      "data": [
+        "creditcard.csv"
+      ],
+      "changes": [
+        "信用卡数据默认固定分层抽样 30000 行并保持原类别比例；load_creditcard(sample_size=None) 可读全量数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/09. XGBoost.md",
+      "notebook": "3. 集成算法/09. XGBoost.ipynb",
+      "python_blocks": 1,
+      "code_cells": 4,
+      "data": [],
+      "changes": [
+        "XGBoost 移除旧 fit 早停参数；树数由训练集交叉验证选择，测试集不参与训练。饼图按类别编码顺序排列。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/10. 梯度提升决策树（GBDT）.md",
+      "notebook": "3. 集成算法/10. 梯度提升决策树（GBDT）.ipynb",
+      "python_blocks": 1,
+      "code_cells": 4,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/11. LightGBM.md",
+      "notebook": "3. 集成算法/11. LightGBM.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "3. 集成算法/12. 因果推断.md",
+      "notebook": "3. 集成算法/12. 因果推断.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/01. 正态分布.md",
+      "notebook": "4. 概率分布/01. 正态分布.ipynb",
+      "python_blocks": 4,
+      "code_cells": 5,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/02. 均匀分布.md",
+      "notebook": "4. 概率分布/02. 均匀分布.ipynb",
+      "python_blocks": 4,
+      "code_cells": 5,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/03. 二项分布.md",
+      "notebook": "4. 概率分布/03. 二项分布.ipynb",
+      "python_blocks": 4,
+      "code_cells": 5,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/04. 泊松分布.md",
+      "notebook": "4. 概率分布/04. 泊松分布.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/05. 指数分布.md",
+      "notebook": "4. 概率分布/05. 指数分布.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/06. 几何分布.md",
+      "notebook": "4. 概率分布/06. 几何分布.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/07. 伽玛分布.md",
+      "notebook": "4. 概率分布/07. 伽玛分布.ipynb",
+      "python_blocks": 3,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/08. 卡方分布.md",
+      "notebook": "4. 概率分布/08. 卡方分布.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/09. t分布.md",
+      "notebook": "4. 概率分布/09. t分布.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/10. 伯努利分布.md",
+      "notebook": "4. 概率分布/10. 伯努利分布.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/11. 多项分布.md",
+      "notebook": "4. 概率分布/11. 多项分布.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/12. Beta分布.md",
+      "notebook": "4. 概率分布/12. Beta分布.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "4. 概率分布/13. Dirichlet分布.md",
+      "notebook": "4. 概率分布/13. Dirichlet分布.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/01. T检验.md",
+      "notebook": "5. 统计检验方法/01. T检验.ipynb",
+      "python_blocks": 3,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/02. 卡方检验.md",
+      "notebook": "5. 统计检验方法/02. 卡方检验.ipynb",
+      "python_blocks": 3,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/03. 方差分析.md",
+      "notebook": "5. 统计检验方法/03. 方差分析.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/04. 非参数检验.md",
+      "notebook": "5. 统计检验方法/04. 非参数检验.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/05. F检验.md",
+      "notebook": "5. 统计检验方法/05. F检验.ipynb",
+      "python_blocks": 2,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/06. 贝叶斯检验.md",
+      "notebook": "5. 统计检验方法/06. 贝叶斯检验.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "迁移至 PyMC 5，以两条链检查采样；P(μA > μB | 数据) 是后验概率，不能称为贝叶斯因子。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/07. 皮尔逊相关系数检验.md",
+      "notebook": "5. 统计检验方法/07. 皮尔逊相关系数检验.ipynb",
+      "python_blocks": 9,
+      "code_cells": 10,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/08. 正态性检验.md",
+      "notebook": "5. 统计检验方法/08. 正态性检验.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "5. 统计检验方法/09. 方差齐性检验.md",
+      "notebook": "5. 统计检验方法/09. 方差齐性检验.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/01. 方差阈值法.md",
+      "notebook": "6. 特征选择方法/01. 方差阈值法.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/02. 单变量特征选择.md",
+      "notebook": "6. 特征选择方法/02. 单变量特征选择.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/03. 基于树模型的特征选择.md",
+      "notebook": "6. 特征选择方法/03. 基于树模型的特征选择.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/04. L1 正则化.md",
+      "notebook": "6. 特征选择方法/04. L1 正则化.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/05. L2 正则化.md",
+      "notebook": "6. 特征选择方法/05. L2 正则化.ipynb",
+      "python_blocks": 14,
+      "code_cells": 15,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/06. 嵌入法.md",
+      "notebook": "6. 特征选择方法/06. 嵌入法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [
+        "BostonHousing.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/07. 主成分分析.md",
+      "notebook": "6. 特征选择方法/07. 主成分分析.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/08. 相关系数法.md",
+      "notebook": "6. 特征选择方法/08. 相关系数法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/09. 信息增益.md",
+      "notebook": "6. 特征选择方法/09. 信息增益.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "6. 特征选择方法/10. 互信息法.md",
+      "notebook": "6. 特征选择方法/10. 互信息法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 4,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/01. 主成分分析 PCA.md",
+      "notebook": "7. 降维技术/01. 主成分分析 PCA.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/02. 线性判别分析 LDA.md",
+      "notebook": "7. 降维技术/02. 线性判别分析 LDA.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/03. 独立成分分析 ICA.md",
+      "notebook": "7. 降维技术/03. 独立成分分析 ICA.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [],
+      "changes": [
+        "ICA 在完整数据上拟合一次后分批 transform；各批独立重新拟合会使分量的顺序、符号和尺度不一致，不能直接拼接。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/04. 因子分析.md",
+      "notebook": "7. 降维技术/04. 因子分析.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "补齐 PCA 导入。模拟数据的各列原本独立，载荷仅用于演示，不能据此认定“学习能力”“社交活跃度”等真实潜因子。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/05. 局部线性嵌入.md",
+      "notebook": "7. 降维技术/05. 局部线性嵌入.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [
+        "LLE 调参改为在验证样本的 transform 结果上评估 trustworthiness，修复训练/验证距离矩阵维度不一致的问题。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/06. Isomap.md",
+      "notebook": "7. 降维技术/06. Isomap.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/07. 奇异值分解.md",
+      "notebook": "7. 降维技术/07. 奇异值分解.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/08. t-SNE.md",
+      "notebook": "7. 降维技术/08. t-SNE.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "MNIST/raw/train-images-idx3-ubyte.gz",
+        "MNIST/raw/train-labels-idx1-ubyte.gz"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "读取本地 MNIST IDX 文件，固定分层抽取 2000 张图像做传统降维；可调整 sample_size。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/09. UMAP.md",
+      "notebook": "7. 降维技术/09. UMAP.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [
+        "MNIST/raw/train-images-idx3-ubyte.gz",
+        "MNIST/raw/train-labels-idx1-ubyte.gz"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "读取本地 MNIST IDX 文件，固定分层抽取 2000 张图像做传统降维；可调整 sample_size。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/10. 核PCA.md",
+      "notebook": "7. 降维技术/10. 核PCA.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "7. 降维技术/11. 多维尺度分析（MDS）.md",
+      "notebook": "7. 降维技术/11. 多维尺度分析（MDS）.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [],
+      "changes": [
+        "MDS 的 BERT 扩展示例替换为 TF-IDF + TruncatedSVD（潜在语义分析），避免深度学习和模型下载。10 篇文本的 t-SNE perplexity 改为 3。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/01. 梯度下降法.md",
+      "notebook": "8. 优化算法/01. 梯度下降法.ipynb",
+      "python_blocks": 3,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/02. 批量梯度下降法.md",
+      "notebook": "8. 优化算法/02. 批量梯度下降法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/03. 随机梯度下降法.md",
+      "notebook": "8. 优化算法/03. 随机梯度下降法.ipynb",
+      "python_blocks": 2,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/04. 动量法.md",
+      "notebook": "8. 优化算法/04. 动量法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/05. AdaGrad.md",
+      "notebook": "8. 优化算法/05. AdaGrad.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/06. RMSProp.md",
+      "notebook": "8. 优化算法/06. RMSProp.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/07. Adam优化器.md",
+      "notebook": "8. 优化算法/07. Adam优化器.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "保留 Adam 理论，用 NumPy 实现一阶矩、二阶矩与偏差修正，并在线性回归上演示；原深层网络训练案例不转写。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/08. 牛顿方法.md",
+      "notebook": "8. 优化算法/08. 牛顿方法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/09. 共轭梯度法.md",
+      "notebook": "8. 优化算法/09. 共轭梯度法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/10. BFGS.md",
+      "notebook": "8. 优化算法/10. BFGS.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/11. 超参数优化.md",
+      "notebook": "8. 优化算法/11. 超参数优化.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [
+        "titanic.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "删除在切分前重复抽样到 10 万行的步骤，避免同一个乘客同时进入训练集和测试集；森林无需标准化。",
+        "更新 max_features 的合法候选，并使用 12 次贝叶斯搜索与 50–200 棵树作为教学规模。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/12. 贝叶斯优化.md",
+      "notebook": "8. 优化算法/12. 贝叶斯优化.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "8. 优化算法/13. 网格搜索.md",
+      "notebook": "8. 优化算法/13. 网格搜索.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "原神经网络网格搜索改为 SVM；预处理放入 Pipeline，使用训练集交叉验证选参，再对独立测试集评估。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/01. K-均值聚类.md",
+      "notebook": "9. 聚类算法/01. K-均值聚类.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/02. 层次聚类.md",
+      "notebook": "9. 聚类算法/02. 层次聚类.ipynb",
+      "python_blocks": 4,
+      "code_cells": 5,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/03. DBSCAN.md",
+      "notebook": "9. 聚类算法/03. DBSCAN.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/04. GMM.md",
+      "notebook": "9. 聚类算法/04. GMM.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "lenna.jpg"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "网络图片改为本地 lenna.jpg，用于像素聚类演示。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/05. 均值漂移.md",
+      "notebook": "9. 聚类算法/05. 均值漂移.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/06. 谱聚类.md",
+      "notebook": "9. 聚类算法/06. 谱聚类.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "lenna.jpg"
+      ],
+      "changes": [
+        "scikit-image 的 multichannel 参数改为 channel_axis=-1。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "网络图片改为本地 lenna.jpg，用于像素聚类演示。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/07. Mini-Batch K-means.md",
+      "notebook": "9. 聚类算法/07. Mini-Batch K-means.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "lenna.jpg"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/08. Birch.md",
+      "notebook": "9. 聚类算法/08. Birch.ipynb",
+      "python_blocks": 1,
+      "code_cells": 5,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/09. 模糊C均值.md",
+      "notebook": "9. 聚类算法/09. 模糊C均值.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "9. 聚类算法/10. 期望最大化算法.md",
+      "notebook": "9. 聚类算法/10. 期望最大化算法.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "10. 强化学习算法/01. Q-Learning.md",
+      "notebook": "10. 强化学习算法/01. Q-Learning.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "10. 强化学习算法/02. SARSA.md",
+      "notebook": "10. 强化学习算法/02. SARSA.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/01. 数据标准化.md",
+      "notebook": "11. 数据预处理方法/01. 数据标准化.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/02. 数据归一化.md",
+      "notebook": "11. 数据预处理方法/02. 数据归一化.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/03. 类别编码.md",
+      "notebook": "11. 数据预处理方法/03. 类别编码.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "相关性图只选择编码后的数值列，避免把原始字符串列混入；更新稀疏独热编码参数。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/04. 特征选择.md",
+      "notebook": "11. 数据预处理方法/04. 特征选择.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "先保留独立测试集，再进行标准化及监督特征选择；特征集合的比较使用同一个测试集。Lasso 的超参数搜索也在完整预处理 Pipeline 内执行。"
+      ],
+      "updated": true
+    },
+    {
+      "source": "11. 数据预处理方法/05. 特征缩放.md",
+      "notebook": "11. 数据预处理方法/05. 特征缩放.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/06. 特征构造.md",
+      "notebook": "11. 数据预处理方法/06. 特征构造.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [
+        "BostonHousing.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/07. 降维.md",
+      "notebook": "11. 数据预处理方法/07. 降维.ipynb",
+      "python_blocks": 12,
+      "code_cells": 13,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/08. 数据增强.md",
+      "notebook": "11. 数据预处理方法/08. 数据增强.ipynb",
+      "python_blocks": 8,
+      "code_cells": 4,
+      "data": [
+        "lenna.jpg"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "数据增强保留图片变换与训练集增强思想；改用本地图片和传统分类器，移除 CIFAR-10 下载及 CNN 训练。增强是否保持标签语义需要结合具体任务判断。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/09. 数据平衡.md",
+      "notebook": "11. 数据预处理方法/09. 数据平衡.ipynb",
+      "python_blocks": 10,
+      "code_cells": 12,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "补齐分步案例中的导入、占位调用和空图；SMOTE 邻居数改为在训练集内部选取。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/10. 数据编码.md",
+      "notebook": "11. 数据预处理方法/10. 数据编码.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/11. 数据拆分.md",
+      "notebook": "11. 数据预处理方法/11. 数据拆分.ipynb",
+      "python_blocks": 2,
+      "code_cells": 5,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "11. 数据预处理方法/12. 数据转换.md",
+      "notebook": "11. 数据预处理方法/12. 数据转换.ipynb",
+      "python_blocks": 13,
+      "code_cells": 14,
+      "data": [
+        "house-prices-advanced-regression-techniques/train.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/01. 自回归.md",
+      "notebook": "12. 时间序列分析方法/01. 自回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [
+        "stock_data.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "股票记录按日期排序后再做前后切分；交易日序列按观测步长建模。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/02. 移动平均.md",
+      "notebook": "12. 时间序列分析方法/02. 移动平均.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [
+        "TSLA.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/03. 自回归滑动平均.md",
+      "notebook": "12. 时间序列分析方法/03. 自回归滑动平均.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [
+        "global_air_quality_data_bj.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "空气质量先按日期汇总重复记录、排序并补齐日频；仅向前填补缺口，再按时间划分训练和测试。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/04. 自回归积分滑动平均.md",
+      "notebook": "12. 时间序列分析方法/04. 自回归积分滑动平均.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "原任意的 ±10% 阴影替换为模型预测区间；明确全量拟合图是样本内结果，另外保留末尾 90 天评估样本外误差。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/05. 向量自回归.md",
+      "notebook": "12. 时间序列分析方法/05. 向量自回归.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "模拟原始序列是随机游走；VAR 在一阶差分上拟合，再累加还原到原量纲。数据是合成演示，不能据此解释实际经济因果关系。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/06. 向量自回归滑动平均.md",
+      "notebook": "12. 时间序列分析方法/06. 向量自回归滑动平均.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "VARMA 增加迭代上限，只比较已经收敛的候选模型，并显式检查最终模型的收敛状态。",
+        "VARMA 采用小型阶数候选集；失败候选显示原因。预测区间按列名读取，避免将两个变量的上下界混用；图中预测量为差分值。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": true
+    },
+    {
+      "source": "12. 时间序列分析方法/07. Prophet.md",
+      "notebook": "12. 时间序列分析方法/07. Prophet.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/08. Holt-Winters.md",
+      "notebook": "12. 时间序列分析方法/08. Holt-Winters.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "12. 时间序列分析方法/10. XGBoost.md",
+      "notebook": "12. 时间序列分析方法/10. XGBoost.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "时间序列按先后顺序切分，修复随机切分后曲线与日期错位的问题。这是滚动一步预测：每个测试日使用当时已观测到的过去 7 天销量；不是一次性预测未来多天。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/01. 核函数.md",
+      "notebook": "13. 核方法/01. 核函数.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/02. 线性核.md",
+      "notebook": "13. 核方法/02. 线性核.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/03. 多项式核.md",
+      "notebook": "13. 核方法/03. 多项式核.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/04. 高斯核.md",
+      "notebook": "13. 核方法/04. 高斯核.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/05. 拉普拉斯核.md",
+      "notebook": "13. 核方法/05. 拉普拉斯核.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。",
+        "拉普拉斯核分类器用标准估计器包装，保证交叉验证按原始特征拆分，随后分别构造训练核和验证核。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/06. Sigmoid核.md",
+      "notebook": "13. 核方法/06. Sigmoid核.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/07. ANOVA核.md",
+      "notebook": "13. 核方法/07. ANOVA核.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "大规模参数网格缩为每维至多两个候选值；所有候选仍真实训练，未跳过运行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/08. 多核学习.md",
+      "notebook": "13. 核方法/08. 多核学习.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "原代码未闭合，且倒数梯度更新不等同于 SimpleMKL。案例改为验证集选择非负核组合权重，明确它是多核学习的教学实现，并非 SimpleMKL 优化器。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "13. 核方法/09. 谱核.md",
+      "notebook": "13. 核方法/09. 谱核.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/01. 均方误差.md",
+      "notebook": "14. 损失函数/01. 均方误差.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/02. 均方根误差.md",
+      "notebook": "14. 损失函数/02. 均方根误差.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/03. 平均绝对误差.md",
+      "notebook": "14. 损失函数/03. 平均绝对误差.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/04. 交叉熵损失.md",
+      "notebook": "14. 损失函数/04. 交叉熵损失.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/05. 二元交叉熵损失.md",
+      "notebook": "14. 损失函数/05. 二元交叉熵损失.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/06. 平方合页损失.md",
+      "notebook": "14. 损失函数/06. 平方合页损失.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/07. 对数似然损失.md",
+      "notebook": "14. 损失函数/07. 对数似然损失.ipynb",
+      "python_blocks": 1,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/08. Huber损失.md",
+      "notebook": "14. 损失函数/08. Huber损失.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/09. KL散度.md",
+      "notebook": "14. 损失函数/09. KL散度.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "14. 损失函数/10. 余弦相似性损失.md",
+      "notebook": "14. 损失函数/10. 余弦相似性损失.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "15. 正则化方法/01. 正则化.md",
+      "notebook": "15. 正则化方法/01. 正则化.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [
+        "house-prices-advanced-regression-techniques/test.csv",
+        "house-prices-advanced-regression-techniques/train.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "缺失值、编码和标准化放入 Pipeline；调参使用更适合目标量纲的 alpha 范围。Lasso 路径使用 warm_start，并仅展示系数幅度最大的 12 个特征。"
+      ],
+      "updated": true
+    },
+    {
+      "source": "15. 正则化方法/02. 弹性网络正则化.md",
+      "notebook": "15. 正则化方法/02. 弹性网络正则化.ipynb",
+      "python_blocks": 4,
+      "code_cells": 5,
+      "data": [
+        "BostonHousing.csv"
+      ],
+      "changes": [
+        "ElasticNet 搜索去掉 l1_ratio=0 的退化边界，增加迭代上限并缩小用于热力图的候选网格。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": true
+    },
+    {
+      "source": "16. 信息论/01. 相对熵.md",
+      "notebook": "16. 信息论/01. 相对熵.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "16. 信息论/02. 互信息.md",
+      "notebook": "16. 信息论/02. 互信息.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "非线性输入特征改由原始 X 构造，避免将标签泄漏进特征；互信息筛选仅使用训练集，单特征实现改用公开分类互信息接口。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "16. 信息论/03. 交叉熵.md",
+      "notebook": "16. 信息论/03. 交叉熵.ipynb",
+      "python_blocks": 2,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "16. 信息论/04. 信息增益.md",
+      "notebook": "16. 信息论/04. 信息增益.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/01. 交叉验证.md",
+      "notebook": "17. 机器学习模型评估方法/01. 交叉验证.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/02. 混淆矩阵.md",
+      "notebook": "17. 机器学习模型评估方法/02. 混淆矩阵.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/03. 准确率.md",
+      "notebook": "17. 机器学习模型评估方法/03. 准确率.ipynb",
+      "python_blocks": 3,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/04. 精确率.md",
+      "notebook": "17. 机器学习模型评估方法/04. 精确率.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [
+        "乳腺癌数据中 0 表示恶性；精确率使用 pos_label=0，报告键显式使用类别名称。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/05. 召回率.md",
+      "notebook": "17. 机器学习模型评估方法/05. 召回率.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/06. F1 分数.md",
+      "notebook": "17. 机器学习模型评估方法/06. F1 分数.ipynb",
+      "python_blocks": 10,
+      "code_cells": 11,
+      "data": [
+        "sms.tsv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/07. ROC 曲线.md",
+      "notebook": "17. 机器学习模型评估方法/07. ROC 曲线.ipynb",
+      "python_blocks": 8,
+      "code_cells": 9,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/08. AUC.md",
+      "notebook": "17. 机器学习模型评估方法/08. AUC.ipynb",
+      "python_blocks": 9,
+      "code_cells": 10,
+      "data": [
+        "creditcard.csv"
+      ],
+      "changes": [
+        "信用卡数据默认固定分层抽样 30000 行并保持原类别比例；load_creditcard(sample_size=None) 可读全量数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "17. 机器学习模型评估方法/09. 均方误差.md",
+      "notebook": "17. 机器学习模型评估方法/09. 均方误差.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [
+        "housing.csv"
+      ],
+      "changes": [
+        "从本地 housing.csv 构造加州房价特征，删除缺失行，固定抽样 2500 行；load_local_housing(sample_size=None) 可运行全量有效数据。",
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/01. 最小-最大缩放.md",
+      "notebook": "18. 归一化方法/01. 最小-最大缩放.ipynb",
+      "python_blocks": 3,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/02. 数据标准化.md",
+      "notebook": "18. 归一化方法/02. 数据标准化.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/03. 最大绝对值缩放.md",
+      "notebook": "18. 归一化方法/03. 最大绝对值缩放.ipynb",
+      "python_blocks": 9,
+      "code_cells": 10,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/04. 数据归一化.md",
+      "notebook": "18. 归一化方法/04. 数据归一化.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/05. Z-score 标准化.md",
+      "notebook": "18. 归一化方法/05. Z-score 标准化.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/06. 分位数缩放.md",
+      "notebook": "18. 归一化方法/06. 分位数缩放.ipynb",
+      "python_blocks": 3,
+      "code_cells": 4,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/07. 二值化.md",
+      "notebook": "18. 归一化方法/07. 二值化.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/08. 对数变换.md",
+      "notebook": "18. 归一化方法/08. 对数变换.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/09. 平方根变换.md",
+      "notebook": "18. 归一化方法/09. 平方根变换.ipynb",
+      "python_blocks": 10,
+      "code_cells": 11,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "补齐复述代码块中的 std_dev 名称和绘图数据参数。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "18. 归一化方法/10. Box-Cox 变换.md",
+      "notebook": "18. 归一化方法/10. Box-Cox 变换.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "19. 参数估计方法/01. 最大似然估计.md",
+      "notebook": "19. 参数估计方法/01. 最大似然估计.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "19. 参数估计方法/02. 贝叶斯估计.md",
+      "notebook": "19. 参数估计方法/02. 贝叶斯估计.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "19. 参数估计方法/03. 最小二乘估计.md",
+      "notebook": "19. 参数估计方法/03. 最小二乘估计.ipynb",
+      "python_blocks": 1,
+      "code_cells": 3,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "修复标量下标；实际求解用数值更稳定的 lstsq，正规方程保留用于推导对照。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "19. 参数估计方法/04. 最小化均方误差.md",
+      "notebook": "19. 参数估计方法/04. 最小化均方误差.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "19. 参数估计方法/05. EM算法.md",
+      "notebook": "19. 参数估计方法/05. EM算法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/01. 分箱法处理.md",
+      "notebook": "20. 异常值处理方法/01. 分箱法处理.ipynb",
+      "python_blocks": 9,
+      "code_cells": 10,
+      "data": [
+        "AmesHousing.csv"
+      ],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。",
+        "统一 AmesHousing 中实际存在的 Gr Liv Area 字段。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/02. 均值填充.md",
+      "notebook": "20. 异常值处理方法/02. 均值填充.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/03. 中位数填充.md",
+      "notebook": "20. 异常值处理方法/03. 中位数填充.ipynb",
+      "python_blocks": 5,
+      "code_cells": 6,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/04. 剪尾法.md",
+      "notebook": "20. 异常值处理方法/04. 剪尾法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/05. 标准差法.md",
+      "notebook": "20. 异常值处理方法/05. 标准差法.ipynb",
+      "python_blocks": 6,
+      "code_cells": 7,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/06. Z-Score 标准化.md",
+      "notebook": "20. 异常值处理方法/06. Z-Score 标准化.ipynb",
+      "python_blocks": 9,
+      "code_cells": 10,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/07. IQR（四分位距）法.md",
+      "notebook": "20. 异常值处理方法/07. IQR（四分位距）法.ipynb",
+      "python_blocks": 7,
+      "code_cells": 8,
+      "data": [],
+      "changes": [
+        "修复或适配代码；原讲解性输出保留为 Markdown，Python 单元按顺序执行。"
+      ],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/08. 箱线图分析.md",
+      "notebook": "20. 异常值处理方法/08. 箱线图分析.ipynb",
+      "python_blocks": 9,
+      "code_cells": 10,
+      "data": [],
+      "changes": [],
+      "updated": false
+    },
+    {
+      "source": "20. 异常值处理方法/09. 聚类法.md",
+      "notebook": "20. 异常值处理方法/09. 聚类法.ipynb",
+      "python_blocks": 1,
+      "code_cells": 2,
+      "data": [],
+      "changes": [],
+      "updated": false
+    }
+  ],
+  "excluded": [
+    "2. 分类算法/12. 多层感知机分类器.md",
+    "12. 时间序列分析方法/09. LSTM.md",
+    "21. 神经网络/01. 感知机.md",
+    "21. 神经网络/02. 多层感知机.md",
+    "21. 神经网络/03. 人工神经网络 ANN.md",
+    "21. 神经网络/04. CNN.md",
+    "21. 神经网络/05. RNN.md",
+    "21. 神经网络/06. LSTM.md",
+    "21. 神经网络/07. GRU (门控循环单元).md",
+    "21. 神经网络/08. 生成对抗网络 GAN.md",
+    "21. 神经网络/09. 自编码器.md",
+    "21. 神经网络/10. 注意力机制.md",
+    "21. 神经网络/11. Transformer.md",
+    "21. 神经网络/12. 残差网络（ResNet）.md",
+    "21. 神经网络/13. DenseNet.md",
+    "21. 神经网络/14. AlexNet.md"
+  ]
+}

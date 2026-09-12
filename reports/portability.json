@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "description": "将辅助模块、数据及四篇代表性 Notebook 复制至原目录之外的独立路径，在各 Notebook 目录下启动新内核运行。",
+  "cases": [
+    {
+      "notebook": "7. 降维技术/08. t-SNE.ipynb",
+      "signature": "4360c65cfc4016d086fabd871b545959495bab6802befdee7f809294587cdb11",
+      "status": "passed",
+      "seconds": 7.49,
+      "code_cells": 2,
+      "outputs": 3,
+      "figures": 1
+    },
+    {
+      "notebook": "2. 分类算法/10. LightGBM.ipynb",
+      "signature": "e5c1f1b67e3b77760c94bf74068fba06034fe8b92c5385af678d795d39639372",
+      "status": "passed",
+      "seconds": 7.26,
+      "code_cells": 11,
+      "outputs": 9,
+      "figures": 4
+    },
+    {
+      "notebook": "1. 回归算法/01. 线性回归.ipynb",
+      "signature": "214fcd9a6a3364d8ca41b9386b6b484a393294a50ac34e50f2bf5e018ae852d3",
+      "status": "passed",
+      "seconds": 2.42,
+      "code_cells": 6,
+      "outputs": 5,
+      "figures": 2
+    },
+    {
+      "notebook": "11. 数据预处理方法/08. 数据增强.ipynb",
+      "signature": "23c70e985c29cc6ba1bb448672169514aed2d7ea0f64161090a667335271fd71",
+      "status": "passed",
+      "seconds": 1.99,
+      "code_cells": 4,
+      "outputs": 2,
+      "figures": 1
+    }
+  ]
+}
