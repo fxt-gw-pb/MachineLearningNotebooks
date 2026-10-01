@@ -4,8 +4,8 @@ import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../dist');
 const index=JSON.parse(fs.readFileSync(path.join(ROOT,'content/index.json'),'utf8'));
-assert.equal(index.lessons.length,185);assert.equal(index.chapters.length,20);
-const ids=new Set(index.lessons.map(l=>l.id));assert.equal(ids.size,185);
+assert.equal(index.lessons.length,203);assert.equal(index.chapters.length,22);
+const ids=new Set(index.lessons.map(l=>l.id));assert.equal(ids.size,203);
 let codes=0,images=0,plots=0,math=0;
 for(const summary of index.lessons){
   const lesson=JSON.parse(fs.readFileSync(path.join(ROOT,'content',summary.id+'.json'),'utf8'));
@@ -36,5 +36,5 @@ for(const summary of index.lessons){
 }
 for(const chapter of index.chapters)for(const id of chapter.lessons)assert(ids.has(id));
 for(const file of ['index.html','app.js','style.css','favicon.svg','vendor/lucide.js','vendor/plotly.js','fonts/manrope.woff2','fonts/jetbrains-mono.woff2'])assert(fs.statSync(path.join(ROOT,file)).size>0,file);
-assert.equal(codes,866);assert.equal(images,539);assert.equal(plots,3);assert(math>8000);
-console.log(`PASS: 185 lessons; ${codes} code cells; ${images} rendered figures; ${plots} interactive figures; ${math} math expressions; all content assets and anchors resolve.`);
+assert.equal(codes,1219);assert.equal(images,690);assert.equal(plots,3);assert(math>8000);
+console.log(`PASS: 203 lessons; ${codes} code cells; ${images} rendered figures; ${plots} interactive figures; ${math} math expressions; all content assets and anchors resolve.`);

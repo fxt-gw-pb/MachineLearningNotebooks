@@ -92,9 +92,10 @@ const descriptions={
   13:'通过相似性，在新的特征空间中学习。',14:'理解模型如何衡量错误，以及优化什么。',
   15:'控制模型复杂度，让学习适可而止。',16:'用熵和互信息衡量不确定性与关联。',
   17:'选对评价指标，判断模型是否学得有效。',18:'调整数值尺度，让特征在合适的范围内工作。',
-  19:'从有限的观测，估计总体与模型参数。',20:'理解异常值，并选择有依据的处理方式。'
+  19:'从有限的观测，估计总体与模型参数。',20:'理解异常值，并选择有依据的处理方式。',
+  21:'从潜在结局出发，区分相关与因果，估计处理效应。',22:'把机器学习用于因果估计：双重机器学习与异质效应。'
 };
-const chapterIcons=['chart-no-axes-combined','shapes','layers','chart-column','flask-conical','scan-line','orbit','sliders-horizontal','network','route','filter','chart-line','waypoints','square-function','shield-check','binary','badge-check','ruler','sigma','scan-search'];
+const chapterIcons=['chart-no-axes-combined','shapes','layers','chart-column','flask-conical','scan-line','orbit','sliders-horizontal','network','route','filter','chart-line','waypoints','square-function','shield-check','binary','badge-check','ruler','sigma','scan-search','git-compare-arrows','brain-circuit'];
 const chapters=[];const lessons=[];const outputCounts={};
 for(const directory of fs.readdirSync(source).filter(d=>/^\d+\. /.test(d)).sort((a,b)=>parseInt(a)-parseInt(b))){
   const chapterId=String(parseInt(directory)).padStart(2,'0');
@@ -119,7 +120,7 @@ for(const directory of fs.readdirSync(source).filter(d=>/^\d+\. /.test(d)).sort(
         }
         cells.push({type:'markdown',html:markdown(raw,path.join(source,directory))});
       }else if(cell.cell_type==='code'){
-        const setup=cell.metadata?.tags?.includes('setup')||raw.includes('CJK_FONTS =')&&raw.includes('notebook_support');
+        const setup=cell.metadata?.tags?.some(t=>t==='setup'||t==='data_snapshot')||raw.includes('CJK_FONTS =')&&raw.includes('notebook_support');
         if(!setup){codeNumber++;codeLines+=raw.split('\n').length;}
         const sourceHighlighted=hljs.highlight(raw,{language:'python',ignoreIllegals:true}).value;
         const block={type:'code',number:setup?0:codeNumber,execution:cell.execution_count,source:raw,highlight:sourceHighlighted,lines:raw.split('\n').length,setup,outputs:[]};
@@ -173,5 +174,5 @@ fs.writeFileSync(path.join(DIST,'content/index.json'),JSON.stringify(catalog));
 fs.writeFileSync(path.join(DIST,'.nojekyll'),'');
 fs.writeFileSync(path.join(DIST,'build-info.json'),JSON.stringify({lessons:lessons.length,chapters:chapters.length,assets:assets.size,assetBytes:[...assets.values()].reduce((a,b)=>a+b,0),mathExpressions:mathCache.size,mathErrors,outputs:outputCounts},null,2));
 if(mathErrors.length)throw new Error('公式构建错误: '+mathErrors.slice(0,3).join('; '));
-if(lessons.length!==185)throw new Error('Expected 185 lessons, got '+lessons.length);
+if(lessons.length!==203)throw new Error('Expected 203 lessons, got '+lessons.length);
 console.log(`Built ${lessons.length} lessons, ${chapters.length} chapters, ${assets.size} images and ${mathCache.size} unique math expressions.`);

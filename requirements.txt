@@ -25,3 +25,5 @@ nbclient==0.10.2
 nbconvert==7.16.6
 ipykernel==6.31.0
 jupyterlab==4.4.7
+doubleml==0.11.4
+econml==0.17.0

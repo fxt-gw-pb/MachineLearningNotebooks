@@ -1,12 +1,12 @@
 # 机器学习学习笔记 · Jupyter Notebook
 
-在线阅读：[ML Atlas · 机器学习手记](https://fxt-gw-pb.github.io/MachineLearningNotebooks/)。按章节探索 185 份笔记，阅读数学公式、语法高亮代码、数据表和真实运行图形；支持搜索、复制代码、展开长代码及放大图形。网站源代码位于 `website/`，通过 GitHub Actions 自动发布到 GitHub Pages。
+在线阅读：[ML Atlas · 机器学习手记](https://fxt-gw-pb.github.io/MachineLearningNotebooks/)。按章节探索 203 份笔记，阅读数学公式、语法高亮代码、数据表和真实运行图形；支持搜索、复制代码、展开长代码及放大图形。网站源代码位于 `website/`，通过 GitHub Actions 自动发布到 GitHub Pages。
 
-由原目录的 201 份 Markdown 转写而来，共 **185 份 Notebook**，按原来的 20 个章节存放。每份均保留理论、公式与可运行案例，附有实际执行输出。
+第 1–20 章由原目录的 201 份 Markdown 转写而来，共 185 份；第 21–22 章为新增的因果推断专题（因果推断基础 10 份、因果机器学习 8 份）。合计 **203 份 Notebook**、22 个章节。每份均保留理论、公式与可运行案例，附有实际执行输出。
 
 ## 从 GitHub 下载完整内容
 
-本仓库包含 185 份 Notebook、必要数据、图片附件、运行依赖和验证报告。`dataset/creditcard.csv` 使用 Git LFS 保存，其余文件直接保存在 Git 仓库中。
+本仓库包含 203 份 Notebook、必要数据、图片附件、运行依赖和验证报告。`dataset/creditcard.csv` 使用 Git LFS 保存，其余文件直接保存在 Git 仓库中。
 
 先安装 [Git LFS](https://git-lfs.com/)，再执行：
 
@@ -62,6 +62,8 @@ Adam、网格搜索、数据增强、MDS 等通用内容保留；夹带的神经
 - [公式检查结果](reports/math_rendering.json)
 - [迁移后运行验证](reports/portability.json)
 - [独立环境依赖解析](reports/dependency_resolution.json)
+
+第 21–22 章的 18 份因果推断 Notebook 均为独立单文件：数据在代码中模拟生成或以压缩快照嵌入，不读取 `dataset/`、不依赖 `notebook_support.py`，也不需要联网。它们在 Python 3.13、scikit-learn 1.8.0 环境中以全新内核执行，每份的执行环境与验证结果记录在 Notebook 元数据 `validation` 中；与 `requirements.txt` 中的固定版本不同时，数值可能有细微差异。《双重机器学习与部分线性模型》《双重机器学习与交互回归模型》需要 DoubleML，《因果树与因果森林》需要 EconML，均已加入 `requirements.txt`。
 
 库弃用提示、模型可识别性提示或统计诊断提示会如实保留；它们不等同于执行失败。实验仅用于学习，性能高低与模型是否适用于当前数据需要通过对应指标判断。
 
@@ -328,3 +330,27 @@ python tools/validate_notebooks.py --retry --workers 3
 - [07. IQR（四分位距）法](20.%20%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95/07.%20IQR%EF%BC%88%E5%9B%9B%E5%88%86%E4%BD%8D%E8%B7%9D%EF%BC%89%E6%B3%95.ipynb)
 - [08. 箱线图分析](20.%20%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95/08.%20%E7%AE%B1%E7%BA%BF%E5%9B%BE%E5%88%86%E6%9E%90.ipynb)
 - [09. 聚类法](20.%20%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95/09.%20%E8%81%9A%E7%B1%BB%E6%B3%95.ipynb)
+
+### 21. 因果推断基础
+
+- [01. 从相关到因果](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/01.%20%E4%BB%8E%E7%9B%B8%E5%85%B3%E5%88%B0%E5%9B%A0%E6%9E%9C.ipynb)
+- [02. 随机试验与统计推断](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/02.%20%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C%E4%B8%8E%E7%BB%9F%E8%AE%A1%E6%8E%A8%E6%96%AD.ipynb)
+- [03. 因果图、混杂与识别假设](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/03.%20%E5%9B%A0%E6%9E%9C%E5%9B%BE%E3%80%81%E6%B7%B7%E6%9D%82%E4%B8%8E%E8%AF%86%E5%88%AB%E5%81%87%E8%AE%BE.ipynb)
+- [04. 回归调整与标准化](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/04.%20%E5%9B%9E%E5%BD%92%E8%B0%83%E6%95%B4%E4%B8%8E%E6%A0%87%E5%87%86%E5%8C%96.ipynb)
+- [05. 倾向评分与协变量平衡](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/05.%20%E5%80%BE%E5%90%91%E8%AF%84%E5%88%86%E4%B8%8E%E5%8D%8F%E5%8F%98%E9%87%8F%E5%B9%B3%E8%A1%A1.ipynb)
+- [06. 逆概率加权与重叠问题](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/06.%20%E9%80%86%E6%A6%82%E7%8E%87%E5%8A%A0%E6%9D%83%E4%B8%8E%E9%87%8D%E5%8F%A0%E9%97%AE%E9%A2%98.ipynb)
+- [07. 匹配与ATT](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/07.%20%E5%8C%B9%E9%85%8D%E4%B8%8EATT.ipynb)
+- [08. 双重稳健估计与AIPW](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/08.%20%E5%8F%8C%E9%87%8D%E7%A8%B3%E5%81%A5%E4%BC%B0%E8%AE%A1%E4%B8%8EAIPW.ipynb)
+- [09. 未测混杂与敏感性分析](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/09.%20%E6%9C%AA%E6%B5%8B%E6%B7%B7%E6%9D%82%E4%B8%8E%E6%95%8F%E6%84%9F%E6%80%A7%E5%88%86%E6%9E%90.ipynb)
+- [10. LaLonde综合案例](21.%20%E5%9B%A0%E6%9E%9C%E6%8E%A8%E6%96%AD%E5%9F%BA%E7%A1%80/10.%20LaLonde%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B.ipynb)
+
+### 22. 因果机器学习
+
+- [01. 从FWL到Double Lasso](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/01.%20%E4%BB%8EFWL%E5%88%B0Double%20Lasso.ipynb)
+- [02. 双重机器学习与部分线性模型](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/02.%20%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E9%83%A8%E5%88%86%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B.ipynb)
+- [03. 双重机器学习与交互回归模型](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/03.%20%E5%8F%8C%E9%87%8D%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%BA%A4%E4%BA%92%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B.ipynb)
+- [04. 条件平均处理效应与元学习器](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/04.%20%E6%9D%A1%E4%BB%B6%E5%B9%B3%E5%9D%87%E5%A4%84%E7%90%86%E6%95%88%E5%BA%94%E4%B8%8E%E5%85%83%E5%AD%A6%E4%B9%A0%E5%99%A8.ipynb)
+- [05. DR-Learner与R-Learner](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/05.%20DR-Learner%E4%B8%8ER-Learner.ipynb)
+- [06. 因果树与因果森林](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/06.%20%E5%9B%A0%E6%9E%9C%E6%A0%91%E4%B8%8E%E5%9B%A0%E6%9E%9C%E6%A3%AE%E6%9E%97.ipynb)
+- [07. 因果效应模型的评价与验证](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/07.%20%E5%9B%A0%E6%9E%9C%E6%95%88%E5%BA%94%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%AF%84%E4%BB%B7%E4%B8%8E%E9%AA%8C%E8%AF%81.ipynb)
+- [08. 401k综合案例](22.%20%E5%9B%A0%E6%9E%9C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/08.%20401k%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B.ipynb)

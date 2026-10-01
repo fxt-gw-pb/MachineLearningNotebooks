@@ -20,7 +20,7 @@ function sidebar(chapterId){
     <button class="sidebar-collapse icon-button" data-sidebar-collapse aria-controls="sidebar" aria-expanded="true" aria-label="收起左侧栏" title="收起左侧栏">${icon('panel-left-close')}</button>
     <div class="sidebar-caption">YOUR LEARNING ATLAS</div>
     <a class="overview-link ${!chapterId?'active':''}" href="#/">${icon('layout-grid')}<span>课程总览</span>${icon('arrow-up-right')}</a>
-    <div class="nav-title">学习目录 <span>20 CHAPTERS</span></div>
+    <div class="nav-title">学习目录 <span>${catalog.chapters.length} CHAPTERS</span></div>
     <nav class="chapter-nav" aria-label="课程章节">
       ${catalog.chapters.map(ch=>`<a class="chapter-link ${chapterId===ch.id?'active':''}" href="#/chapter/${ch.id}" ${chapterId===ch.id?'aria-current="page"':''}>
         <span class="chapter-index">${ch.id}</span><span>${esc(ch.title)}</span><small>${ch.lessons.length}</small>
@@ -32,7 +32,7 @@ function sidebar(chapterId){
 function shell(body,chapterId=null,crumb='课程总览'){
   app.innerHTML=`${sidebar(chapterId)}<div class="sidebar-backdrop" data-close-menu></div><div class="workspace">
     <header class="topbar"><div class="breadcrumb"><button class="icon-button menu-button" aria-label="打开章节目录" data-menu>${icon('menu')}</button><button class="icon-button sidebar-restore" data-sidebar-expand aria-controls="sidebar" aria-expanded="false" aria-label="展开左侧栏" title="展开左侧栏">${icon('panel-left-open')}</button><a href="#/">学习空间</a>${icon('chevron-right')}<span>${esc(crumb)}</span></div>
-      <div class="topbar-right"><span class="edition">THE NOTEBOOK COLLECTION <b>01—20</b></span><a class="github-link" href="${REPO}" target="_blank" rel="noopener noreferrer">${icon('github')}<span>GitHub</span>${icon('arrow-up-right')}</a></div>
+      <div class="topbar-right"><span class="edition">THE NOTEBOOK COLLECTION <b>01—${catalog.chapters.at(-1).id}</b></span><a class="github-link" href="${REPO}" target="_blank" rel="noopener noreferrer">${icon('github')}<span>GitHub</span>${icon('arrow-up-right')}</a></div>
     </header><main id="main-content" tabindex="-1">${body}</main><footer class="site-footer"><a href="#/">ML Atlas <span>机器学习手记</span></a><span>从原理到实践 · 用代码理解算法</span><a href="${REPO}" target="_blank" rel="noopener noreferrer">在 GitHub 查看源文件 ${icon('arrow-up-right')}</a></footer></div>`;
   icons();bindShell();
 }
@@ -82,8 +82,8 @@ function renderHome(){
     <section class="featured-lesson" aria-labelledby="featured-title"><div class="featured-copy"><span class="featured-kicker"><span>START HERE</span> 你的第一份学习笔记</span><h2 id="featured-title">从一条直线，<br/>理解预测的起点。</h2><p>用线性回归建立第一个模型，看懂特征、参数与误差之间的关系。</p><a class="primary-button" href="${lessonLink(first)}">学习线性回归 ${icon('arrow-right')}</a><div class="featured-meta">01 · 回归算法 <span>约 ${first.minutes} 分钟</span></div></div>
       <a class="featured-notebook" href="${lessonLink(first)}" aria-label="打开线性回归笔记"><div class="notebook-window-bar"><span><i></i><i></i><i></i></span><span>linear_regression.ipynb</span>${icon('code-2')}</div><div class="featured-code"><span class="line-no">01</span><code><b>model</b> = LinearRegression()</code><span class="line-no">02</span><code>model.<em>fit</em>(X_train, y_train)</code><span class="line-no">03</span><code>y_pred = model.<em>predict</em>(X_test)</code></div><div class="featured-output"><span class="output-mini-label">OUTPUT <span>真实值与预测值</span></span><img src="${asset(first.cover)}" alt="线性回归笔记中真实生成的预测散点图"/></div></a>
     </section>
-    <section class="catalog-section" aria-labelledby="catalog-title"><div class="section-header"><div><div class="eyebrow small">EXPLORE THE COLLECTION</div><h2 id="catalog-title">选择一个主题，开始探索<span>20</span></h2></div><label class="search-field">${icon('search')}<input id="catalog-search" type="search" placeholder="搜索算法、模型或关键词…" aria-label="搜索学习笔记" autocomplete="off"/><kbd>/</kbd></label></div>
-      <div class="catalog-tabs" role="group" aria-label="主题分类"><button data-category="all" class="active">全部主题 <span>20</span></button><button data-category="basics">建模与基础</button><button data-category="methods">方法与实践</button><button data-category="evaluation">度量与诊断</button><span class="catalog-view-note">沿着好奇心，找到下一页 ${icon('arrow-down')}</span></div>
+    <section class="catalog-section" aria-labelledby="catalog-title"><div class="section-header"><div><div class="eyebrow small">EXPLORE THE COLLECTION</div><h2 id="catalog-title">选择一个主题，开始探索<span>${catalog.stats.chapters}</span></h2></div><label class="search-field">${icon('search')}<input id="catalog-search" type="search" placeholder="搜索算法、模型或关键词…" aria-label="搜索学习笔记" autocomplete="off"/><kbd>/</kbd></label></div>
+      <div class="catalog-tabs" role="group" aria-label="主题分类"><button data-category="all" class="active">全部主题 <span>${catalog.stats.chapters}</span></button><button data-category="basics">建模与基础</button><button data-category="methods">方法与实践</button><button data-category="evaluation">度量与诊断</button><button data-category="causal">因果推断</button><span class="catalog-view-note">沿着好奇心，找到下一页 ${icon('arrow-down')}</span></div>
       <div id="catalog-results" class="chapter-grid">${catalog.chapters.map(chapterCard).join('')}</div>
     </section></div>`);
   let selected='all';const input=document.querySelector('#catalog-search');
@@ -92,7 +92,7 @@ function renderHome(){
   document.querySelectorAll('[data-category]').forEach(btn=>btn.addEventListener('click',()=>{selected=btn.dataset.category;document.querySelectorAll('[data-category]').forEach(b=>b.classList.toggle('active',b===btn));update();}));
 }
 function renderCatalogResults(query,category){
-  const inCategory=ch=>category==='all'||category==='basics'&&Number(ch)<=6||category==='methods'&&Number(ch)>6&&Number(ch)<=13||category==='evaluation'&&Number(ch)>=14;
+  const inCategory=ch=>category==='all'||category==='basics'&&Number(ch)<=6||category==='methods'&&Number(ch)>6&&Number(ch)<=13||category==='evaluation'&&Number(ch)>=14&&Number(ch)<=20||category==='causal'&&Number(ch)>=21;
   const target=document.querySelector('#catalog-results');
   if(!query){target.className='chapter-grid';target.innerHTML=catalog.chapters.filter(ch=>inCategory(ch.id)).map(chapterCard).join('');}
   else {
