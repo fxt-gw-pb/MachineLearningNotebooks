@@ -14,6 +14,8 @@ for(const summary of index.lessons){
   const headingIds=new Set();
   for(const cell of lesson.cells){
     if(cell.html){
+      assert(!/原文参考图|原文(?:注明的)?数据获取渠道|公众号/.test(cell.html), `${lesson.id} stale source commentary`);
+      assert(!/<img\b/i.test(cell.html), `${lesson.id} extra markdown image`);
       assert(!cell.html.includes('MLMATHPLACEHOLDER'));assert(!/<script\b/i.test(cell.html));
       math+=(cell.html.match(/role="math"/g)||[]).length;
       for(const m of cell.html.matchAll(/id="(section-\d+)"/g))headingIds.add(m[1]);

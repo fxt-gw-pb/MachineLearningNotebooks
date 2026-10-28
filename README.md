@@ -6,7 +6,7 @@
 
 ## 从 GitHub 下载完整内容
 
-本仓库包含 203 份 Notebook、必要数据、图片附件、运行依赖和验证报告。`dataset/creditcard.csv` 使用 Git LFS 保存，其余文件直接保存在 Git 仓库中。
+本仓库包含 203 份 Notebook、必要数据、运行依赖和验证报告。`dataset/creditcard.csv` 使用 Git LFS 保存，其余文件直接保存在 Git 仓库中。
 
 先安装 [Git LFS](https://git-lfs.com/)，再执行：
 
@@ -34,7 +34,7 @@ python -m ipykernel install --prefix .venv --name python3 --display-name "机器
 python -m jupyterlab
 ```
 
-从下方目录选择一篇笔记，用 **Restart Kernel and Run All Cells** 从头执行。请将本文件夹作为 Jupyter 的工作目录，保留 `notebook_support.py` 和 `dataset/`。Notebook 的图片附件在各章节的 `attachments/` 中。
+从下方目录选择一篇笔记，用 **Restart Kernel and Run All Cells** 从头执行。请将本文件夹作为 Jupyter 的工作目录，保留 `notebook_support.py` 和 `dataset/`。图形保存在 Notebook 的代码执行输出中。
 
 依赖安装后，全部案例数据均可离线读取；无需原 Markdown 目录或外部模型下载。换电脑时复制整个文件夹，重新建立 Python 环境；不要复制已有 `.venv`。
 
@@ -50,7 +50,7 @@ Adam、网格搜索、数据增强、MDS 等通用内容保留；夹带的神经
 
 为便于个人电脑学习，加州房价默认固定抽样 2500 行、信用卡交易分层抽样 30000 行、MNIST 分层抽样 2000 张。`load_local_housing`、`load_creditcard`、`load_local_mnist` 均可设置 `sample_size=None` 使用全部有效数据。较大网格已缩小并在笔记中说明；每个保留候选都实际训练。
 
-加州房价目标单位为十万美元。本地 CSV 缺失卧室数的行被删除，所以结果与 sklearn 在线版本不必完全相同。图片和原文静态输出标为“原文参考”，当前实验以代码输出为准。设置了随机种子，但不同平台或底层库仍可能出现小的数值差异。
+加州房价目标单位为十万美元。本地 CSV 缺失卧室数的行被删除，所以结果与 sklearn 在线版本不必完全相同。图形展示 Notebook 保存的实际执行输出。设置了随机种子，但不同平台或底层库仍可能出现小的数值差异。
 
 ## 验证与维护
 

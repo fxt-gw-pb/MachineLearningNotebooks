@@ -142,12 +142,6 @@ async function renderLesson(id){
   sourceLink.insertAdjacentHTML('beforebegin',`<button class="download-notebook" data-download>${icon('download')}下载 Notebook</button>`);
   sourceLink.innerHTML=icon('github');sourceLink.setAttribute('aria-label','在 GitHub 查看原始 Notebook');sourceLink.title='在 GitHub 查看源文件';
   document.querySelector('.reader-tip').innerHTML=`<span>边读，边验证</span><p>这里展示已保存的运行结果。运行笔记前，请先准备仓库中的数据与公共依赖。</p><a href="${REPO}#开始学习" target="_blank" rel="noopener noreferrer">查看完整运行指南 ${icon('arrow-up-right')}</a>`;
-  document.querySelectorAll('.prose-cell img').forEach(img=>{
-    img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-label','放大查看原文参考图');
-    img.addEventListener('click',()=>showFigure(img.src));
-    img.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showFigure(img.src);}});
-    const caption=document.createElement('span');caption.className='reference-caption';caption.textContent='原文参考图 · 当前实验结果见代码输出';img.after(caption);
-  });
   icons();
   bindLesson(lesson);
 }

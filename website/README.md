@@ -20,7 +20,7 @@ npm run dev
 - 所有课程与章节由现有 Notebook 生成，保留代码、公式、表格及保存的执行输出。
 - 数学公式在构建时由 MathJax 转成 SVG，网页阅读不需要加载外部公式服务。
 - 代码使用 highlight.js 高亮，保持原始缩进；复制按钮复制原始 Python 内容。
-- 原文参考图与当前执行结果有不同标记。预处理兼容性提示折叠展示。
+- 只展示 Notebook 保存的执行图形，不附加原文参考图片。预处理兼容性提示折叠展示。
 - 三个 Plotly 图形按需加载，支持原有交互。
 - 网页展示保存的结果，不提供 Python 内核。需运行时，按仓库根目录 README 准备完整数据与环境。
 - 首页按算法名称、章节、简介和代码关键词检索，英文算法名也可搜索。
@@ -30,6 +30,6 @@ npm run dev
 
 网站源代码位于仓库 `website/`，自动发布配置为 `.github/workflows/pages.yml`。
 
-工作流在 GitHub Actions 中读取仓库现有的 Notebook 和附件，构建 `website/dist/`，完成内容完整性检查后发布至 GitHub Pages。图片和内容文件在构建时生成，不重复提交到 Git 仓库。
+工作流在 GitHub Actions 中读取仓库现有的 Notebook，构建 `website/dist/`，完成内容完整性检查后发布至 GitHub Pages。图片和内容文件在构建时生成，不重复提交到 Git 仓库。
 
 使用 hash 路由，课程与章节链接在 GitHub Pages 的项目子路径下均可直接打开或刷新。

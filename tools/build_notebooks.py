@@ -249,17 +249,13 @@ def build():
             pos=m.end()
         if raw[pos:].strip():cells.append(nbformat.v4.new_markdown_cell(fix_math(raw[pos:])))
         cells = repair_prose(cells, key)
-        # 同步本地图片，只迁移本笔记实际引用的附件。
+        # 只保留代码生成的图，不迁移原文静态参考图或数据渠道说明。
         data_deps=set()
         for cell in cells:
             if cell.cell_type=='markdown':
-                for img in re.findall(r'!\[[^\]]*\]\((attachments/[^)]+)\)',cell.source):
-                    source=path.parent/img
-                    if not source.is_file():raise FileNotFoundError(source)
-                    target=dest.parent/img;target.parent.mkdir(exist_ok=True)
-                    if not target.exists():shutil.copy2(source,target)
-                # 原文生成图不等于当前 Notebook 实际结果，明确标注。
-                cell.source=re.sub(r'!\[\]\((attachments/[^)]+)\)', r'![原文参考图，当前结果见代码输出](\1)',cell.source)
+                cell.source=re.sub(r'!\[[^\]]*\]\(attachments/[^)]+\)', '', cell.source)
+                cell.source='\n\n'.join(p for p in re.split(r'\n\s*\n', cell.source)
+                    if not ('公众号' in p and ('原文' in p or '数据获取渠道' in p)))
             else:
                 s=cell.source
                 data_deps.update(re.findall(r"DATA_DIR / ['\"]([^'\"]+)['\"]",s))
@@ -276,7 +272,7 @@ def build():
         if changes:intro+='转写调整：\n\n'+'\n'.join('- '+c for c in sorted(changes))+'\n\n'
         if key in ['2/09','2/10']:
             intro+='原文件位于“分类算法”目录，但案例实际是房价回归；本篇保留原目录和回归案例，评估使用回归指标。\n\n'
-        intro+='原文参考图及静态数值仅用于对照；重跑后的代码输出为本次实验结果。依赖版本与验证记录见根目录 `README.md` 和 `reports/`。'
+        intro+='依赖版本与验证记录见根目录 `README.md` 和 `reports/`。'
         # 标题和运行说明在前，理论及案例的顺序保持不变。
         title=raw.splitlines()[0]
         if cells and cells[0].cell_type=='markdown' and cells[0].source.startswith(title):
