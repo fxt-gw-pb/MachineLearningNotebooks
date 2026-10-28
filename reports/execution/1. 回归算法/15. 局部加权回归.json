@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:21:58.899351+00:00",
+  "semantic_code_sha256": "2cc28b0d11da3e657de64630cc58b60f885af2fc894f9e8f737b7811636bd2e6",
   "notebook": "1. 回归算法/15. 局部加权回归.ipynb",
-  "signature": "3ef66755ef5b1427db3299a05b104230eb0827a9637f5f9610fc0c86943f88be",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 1.75,
   "code_cells": 6,
+  "seconds": 1.14,
   "outputs": 1,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:20:34.245339+00:00",
+  "semantic_code_sha256": "cd959eaa1aec28dca4b760042c42fac34214cf655a7aae1fcc390616e357d7b1",
   "notebook": "7. 降维技术/01. 主成分分析 PCA.ipynb",
-  "signature": "fd3b319b9b162a766d19d21dbdc66015af242066145c3dbaac9f6224c5d24545",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.14,
   "code_cells": 2,
+  "seconds": 1.6,
   "outputs": 5,
-  "figures": 3
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

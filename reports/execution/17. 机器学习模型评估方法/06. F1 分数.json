@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:12.191611+00:00",
+  "semantic_code_sha256": "f855aa2ae6de21f748f745c5d9eba7df54a835bd0b3ac5e3e42496a1a00d107f",
   "notebook": "17. 机器学习模型评估方法/06. F1 分数.ipynb",
-  "signature": "ee3d755844f2977107b3bbeb18d2d6fc7b1ca09d1ce70b27eb5348984b9146bc",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.47,
   "code_cells": 11,
+  "seconds": 1.41,
   "outputs": 6,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

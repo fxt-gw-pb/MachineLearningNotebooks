@@ -38,5 +38,5 @@ for(const summary of index.lessons){
 }
 for(const chapter of index.chapters)for(const id of chapter.lessons)assert(ids.has(id));
 for(const file of ['index.html','app.js','style.css','favicon.svg','vendor/lucide.js','vendor/plotly.js','fonts/manrope.woff2','fonts/jetbrains-mono.woff2'])assert(fs.statSync(path.join(ROOT,file)).size>0,file);
-assert.equal(codes,1219);assert.equal(images,690);assert.equal(plots,3);assert(math>8000);
+assert.equal(codes,1219);assert.equal(images,691);assert.equal(plots,3);assert(math>8000);
 console.log(`PASS: 203 lessons; ${codes} code cells; ${images} rendered figures; ${plots} interactive figures; ${math} math expressions; all content assets and anchors resolve.`);

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:21.965961+00:00",
+  "semantic_code_sha256": "52b549911a0bef6ad068472bd7c926a1b7f182ae92d2c1e0a47430ca3f5a69ff",
   "notebook": "8. 优化算法/01. 梯度下降法.ipynb",
-  "signature": "c8232f12e72ff21ceafde131265a35c59206c20c798b646a6e0b44a2d76b709a",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.33,
   "code_cells": 4,
-  "outputs": 4,
-  "figures": 3
+  "seconds": 1.71,
+  "outputs": 5,
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:59.881257+00:00",
+  "semantic_code_sha256": "6371adfbaef4c6d08fb86cc9eb2cb4af9923eb5b4d95dba935a6c3d3677bdaf1",
   "notebook": "9. 聚类算法/03. DBSCAN.ipynb",
-  "signature": "ea9bdb690075cfc79def2408227678e074526394888df7034984c8a3c6bfea43",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.01,
   "code_cells": 7,
+  "seconds": 1.69,
   "outputs": 6,
-  "figures": 1
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

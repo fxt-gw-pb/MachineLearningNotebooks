@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:44.483574+00:00",
+  "semantic_code_sha256": "6bdb345e7dfc1e9fe8ba381d998836a343c24d9571efa9151ff96de75271bfce",
   "notebook": "2. 分类算法/08. 朴素贝叶斯.ipynb",
-  "signature": "2831f981f11d3826b79342fe92260a102bf371b23748d15b0b3aac104b3f1d38",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.67,
   "code_cells": 2,
+  "seconds": 2.02,
   "outputs": 2,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

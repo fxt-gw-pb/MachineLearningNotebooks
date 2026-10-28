@@ -1,0 +1,22 @@
+{
+  "lessons": 203,
+  "chapters": 22,
+  "assets": 685,
+  "assetBytes": 43883854,
+  "mathExpressions": 5138,
+  "mathErrors": [],
+  "outputs": {
+    "text": 519,
+    "image": 691,
+    "plotly": 3,
+    "notice": 52,
+    "html": 357
+  },
+  "build": "passed",
+  "content_check": "passed",
+  "javascript_syntax": "passed",
+  "rendered_math_occurrences": 9835,
+  "code_cells": 1219,
+  "source": "npm run build; npm run check; node --check src/app.js",
+  "checked_utc": "2026-10-28T04:30:58Z"
+}

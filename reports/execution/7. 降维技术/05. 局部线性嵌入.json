@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:36.198516+00:00",
+  "semantic_code_sha256": "e2c82ab09cc27d1af24d66c35977b44d9517109db5eacff7666e97593124577e",
   "notebook": "7. 降维技术/05. 局部线性嵌入.ipynb",
-  "signature": "fb1c247012dcf3e139df3229fa5010f527cc910951105e9d66c374d8ff200e70",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 21.15,
   "code_cells": 7,
+  "seconds": 36.9,
   "outputs": 6,
-  "figures": 5
+  "figures": 5,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

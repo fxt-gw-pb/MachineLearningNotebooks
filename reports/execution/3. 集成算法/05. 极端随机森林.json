@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:21:07.611140+00:00",
+  "semantic_code_sha256": "b169b74bdbe52dea6017c107ed360fbef79ad7368021b75c32c944a1953618d9",
   "notebook": "3. 集成算法/05. 极端随机森林.ipynb",
-  "signature": "3fa6472b4f973405a13f198f7819d698756fd548c8dd632e27fafa2fe968d75a",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 8.69,
   "code_cells": 11,
-  "outputs": 16,
-  "figures": 9
+  "seconds": 14.09,
+  "outputs": 15,
+  "figures": 9,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:18:54.761216+00:00",
+  "semantic_code_sha256": "83cb4709f9e6d03e64ddf8b78bad756aa9f447c0085a695d37972d798ad90516",
   "notebook": "11. 数据预处理方法/09. 数据平衡.ipynb",
-  "signature": "4e7d680736b79cb4d93a973734ba885653fb456c45d3b77055b52b98050ba87d",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.12,
   "code_cells": 12,
-  "outputs": 10,
-  "figures": 6
+  "seconds": 2.34,
+  "outputs": 9,
+  "figures": 6,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

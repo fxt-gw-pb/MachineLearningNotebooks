@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:51.522225+00:00",
+  "semantic_code_sha256": "59191be365fa3aca29b3d84b33e967a478acffcdedd95885bd280401657758b1",
   "notebook": "14. 损失函数/07. 对数似然损失.ipynb",
-  "signature": "3f062f228f761f8c4dfb401c20667f15837466a1dbe3920f49707bf9cb091c65",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.4,
   "code_cells": 4,
+  "seconds": 0.99,
   "outputs": 4,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

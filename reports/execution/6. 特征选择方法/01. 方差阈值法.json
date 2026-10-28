@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:26.544896+00:00",
+  "semantic_code_sha256": "743d12aef1e30d6f9b9cae79f9c5c4def4c91083473aa853d3a0ff12a4cce35d",
   "notebook": "6. 特征选择方法/01. 方差阈值法.ipynb",
-  "signature": "d72fe6e8df80cf4a1aed2dacd09cab08ffb7181f478461dfaf591c273251b3c4",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.7,
   "code_cells": 9,
+  "seconds": 3.01,
   "outputs": 8,
-  "figures": 3
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

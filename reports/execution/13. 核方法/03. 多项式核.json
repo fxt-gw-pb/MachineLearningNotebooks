@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:49.013284+00:00",
+  "semantic_code_sha256": "90b47218a6d3885d3f19f29bf2687f79ef7f34f3e58962e0ffaac7f7524331da",
   "notebook": "13. 核方法/03. 多项式核.ipynb",
-  "signature": "09073bbb746687a7f909c1bac08649295b60001f3d85e5a20aa1912c19216c6d",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 13.14,
   "code_cells": 7,
-  "outputs": 8,
-  "figures": 5
+  "seconds": 8.87,
+  "outputs": 7,
+  "figures": 5,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

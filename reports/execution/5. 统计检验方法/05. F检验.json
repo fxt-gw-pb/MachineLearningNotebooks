@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:23.616042+00:00",
+  "semantic_code_sha256": "ebb6d9f09f5ebf76dec1613ae028ef0212104c8b045cd38d9d65d87a11eb43f9",
   "notebook": "5. 统计检验方法/05. F检验.ipynb",
-  "signature": "e274f3ce33738ec712efedac4e456bb0684427b71d1c04fc57b9591ea3a15b2c",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.49,
   "code_cells": 3,
+  "seconds": 1.07,
   "outputs": 4,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

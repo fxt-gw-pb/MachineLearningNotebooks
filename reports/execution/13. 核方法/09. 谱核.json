@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:25.684191+00:00",
+  "semantic_code_sha256": "4af679b7c0fcf9d8b9bc679cd2355210947d051fabaf6cdc18996b477064a3f1",
   "notebook": "13. 核方法/09. 谱核.ipynb",
-  "signature": "145e2b55db6709d29c6ba10116a67a5f32422b274777d2aa82adf851a84a5fe6",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.12,
   "code_cells": 2,
-  "outputs": 3,
-  "figures": 1
+  "seconds": 2.14,
+  "outputs": 2,
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

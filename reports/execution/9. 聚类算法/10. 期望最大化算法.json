@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:58.830632+00:00",
+  "semantic_code_sha256": "6d7a5219b374f8f276bf199483c2c0627c000311429879e41b45eee5a2345be8",
   "notebook": "9. 聚类算法/10. 期望最大化算法.ipynb",
-  "signature": "bc872f2ce1a015f75288d01952910086a545dbfdfc6b3030cf9e0b790a7aaffa",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.02,
   "code_cells": 6,
+  "seconds": 1.54,
   "outputs": 5,
-  "figures": 4
+  "figures": 4,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

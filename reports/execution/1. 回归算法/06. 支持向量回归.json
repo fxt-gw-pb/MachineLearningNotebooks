@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:01.384025+00:00",
+  "semantic_code_sha256": "54b9c2404bd373e3913b60b4eae3423c4c15d514cee9b8896c190c99801e6ad1",
   "notebook": "1. 回归算法/06. 支持向量回归.ipynb",
-  "signature": "5474a148597d48a6380ee51f1d9eb7472ba4f6cb5a2a3b7b76628d9ef611f79e",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 4.96,
   "code_cells": 2,
+  "seconds": 5.27,
   "outputs": 3,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

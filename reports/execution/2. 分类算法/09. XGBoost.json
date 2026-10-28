@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:30.747940+00:00",
+  "semantic_code_sha256": "d46c1fe47f4bb2dcb979b2ed0e545d7d5b8e2de9b330c2bcd95c44885122a9fb",
   "notebook": "2. 分类算法/09. XGBoost.ipynb",
-  "signature": "f68a268ec0b414cb4163fa9d51072e09aeb338e7d23d7c522c2c58f05cdc5ecc",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 12.7,
   "code_cells": 8,
-  "outputs": 9,
-  "figures": 3
+  "seconds": 21.66,
+  "outputs": 7,
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

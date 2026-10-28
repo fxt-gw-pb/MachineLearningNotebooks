@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:09.448982+00:00",
+  "semantic_code_sha256": "633aa5c6552b02cf8f502c591e73e59e1c65f47128992ceb321ef4b62a256b54",
   "notebook": "20. 异常值处理方法/09. 聚类法.ipynb",
-  "signature": "2fcfa7d219ed31eac63c170dc92fc4549f90c5e83bee0b6a65f3485c9975b27a",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.59,
   "code_cells": 2,
+  "seconds": 1.22,
   "outputs": 2,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

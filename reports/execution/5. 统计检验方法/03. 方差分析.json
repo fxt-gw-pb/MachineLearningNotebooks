@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:14.445998+00:00",
+  "semantic_code_sha256": "772458bdb072b16d0f606551b4324599fe9ac4a89fa32fc35c3b6105ea2965f8",
   "notebook": "5. 统计检验方法/03. 方差分析.ipynb",
-  "signature": "fb8cb8fd6185a093aaef0e0a0d6771175c073bd07eeea3e4df9f005c7056c411",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.37,
   "code_cells": 6,
+  "seconds": 1.41,
   "outputs": 5,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

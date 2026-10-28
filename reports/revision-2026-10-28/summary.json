@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "base_commit": "537abf930560d3e90afba8107166b141bfd5ce24",
+  "reviewed": 203,
+  "notebooks_changed": 184,
+  "byte_identical_notebooks": 19,
+  "source_lines_added": 2075,
+  "source_lines_removed": 1850,
+  "semantic_code_changed": 99,
+  "executed_notebooks": 99,
+  "executed_code_cells": 476,
+  "execution_passed": 99,
+  "execution_method": "One isolated IPython process per notebook, ordered run_cell with captured rich display/HTML/Plotly/PNG and streams. Native Jupyter kernel sockets unavailable in this sandbox.",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "limits": [
+    "Not all 203 notebooks were re-executed; unchanged executable code retains historical output.",
+    "Tutorial simulations do not establish universal model superiority.",
+    "Native Jupyter transport could not be exercised in this sandbox; execution used IPython without network sockets."
+  ],
+  "source_preservation": "All notebook counts, cell counts, IDs and teaching structure retained; no wholesale prose rewrite.",
+  "figures_before": 690,
+  "figures_after": 691,
+  "figure_delta_reason": "DBSCAN now explicitly displays the updated original figure instead of an empty implicit figure.",
+  "initial_failures_resolved": [
+    "Jupyter socket startup blocked; switched to ordinary isolated IPython processes.",
+    "Preinstalled sklearn1.8 differs from repository1.7.2; installed pinned versions and reran.",
+    "ANOVA prediction mesh exhausted memory; identical predictions now computed in1024-row chunks.",
+    "Chinese glyph warnings resolved using installed CJK font collection."
+  ]
+}

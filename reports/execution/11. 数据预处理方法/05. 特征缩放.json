@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:18:58.399351+00:00",
+  "semantic_code_sha256": "d0d237ace59269fb95eb0870d9aa23d8522394a59cc11fa8812d5a83bab2a7ea",
   "notebook": "11. 数据预处理方法/05. 特征缩放.ipynb",
-  "signature": "a13577ed047be59dc1730e5d415c3541ff9dc99c9a722a8bad94100f394002e7",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.84,
   "code_cells": 7,
+  "seconds": 1.55,
   "outputs": 6,
-  "figures": 3
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

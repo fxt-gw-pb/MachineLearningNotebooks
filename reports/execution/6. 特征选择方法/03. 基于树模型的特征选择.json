@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:35.578339+00:00",
+  "semantic_code_sha256": "ed2e891331971649e35fe7f69a07504f5dba1700929cf61501a5c2caee6b5de0",
   "notebook": "6. 特征选择方法/03. 基于树模型的特征选择.ipynb",
-  "signature": "2017cd50719fab26a2734ef76a7046b24778ee87b7cb6631c32c862ff237ddd0",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 8.25,
   "code_cells": 9,
+  "seconds": 32.27,
   "outputs": 11,
-  "figures": 5
+  "figures": 5,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

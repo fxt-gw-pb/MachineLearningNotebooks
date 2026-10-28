@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:31.858867+00:00",
+  "semantic_code_sha256": "5c7b26bbaec4a38224cd01f5572e23953e94b85106522f36a245a0fb8d8b1492",
   "notebook": "13. 核方法/06. Sigmoid核.ipynb",
-  "signature": "377ce0d55019287f56bae56f0112cbf7cca02bee3c9c0f7a347cb8e3b84c2ca0",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 9.0,
   "code_cells": 2,
-  "outputs": 8,
-  "figures": 6
+  "seconds": 11.1,
+  "outputs": 7,
+  "figures": 6,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

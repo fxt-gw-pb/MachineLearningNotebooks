@@ -1,0 +1,1433 @@
+{
+  "notebooks": [
+    {
+      "path": "11. 数据预处理方法/09. 数据平衡.ipynb",
+      "sha256": "dbc4ca6d76b88cc4a5ff11a1b74f4bc845b0d6b5ba44583cf113ceca900d3500",
+      "code_cells": 12,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/12. 数据转换.ipynb",
+      "sha256": "7910c69354d8d2d3119d0a2beb17dae290b20736a86e5b59d058a4c317c954fc",
+      "code_cells": 14,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/07. 降维.ipynb",
+      "sha256": "4d1329665682a490fac649b2f2612e8423970e20bdba8ffcc1a45a2699183a7f",
+      "code_cells": 13,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/06. 特征构造.ipynb",
+      "sha256": "75b13f915f4b9ec60cdb707305a7301b94a2963210b1e8277bda9f5792139c2f",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/03. 类别编码.ipynb",
+      "sha256": "065743d07d6e56736b758c6e2261459467b947692049ab6477751273cb457832",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/11. 数据拆分.ipynb",
+      "sha256": "d62d1727a5863511587a8acccdd56a17e8d9b5be55c299a6a81a32faaa9e37a7",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/08. 数据增强.ipynb",
+      "sha256": "022abf95e06bf99a686968783e1e7d76420ea9652e7a603bfa150b609182075d",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/05. 特征缩放.ipynb",
+      "sha256": "835a1a1825ca537391f66dc888491515543581a98e1e9e79d3a1a0d67b2ecb29",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/04. 特征选择.ipynb",
+      "sha256": "abd6c5c9fb114aa10e5ca9569a5ae699323c6ff78d592d519723d3aecef5abf2",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/01. 数据标准化.ipynb",
+      "sha256": "f80e9857f88987b432a4927b40f372258aaa5a38d5db3e44c0c27171b497cbd6",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/02. 数据归一化.ipynb",
+      "sha256": "7cdd325f61b82ea1437ba656c17944756490bedc78a19c45cc8dd0b96e8fa186",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "11. 数据预处理方法/10. 数据编码.ipynb",
+      "sha256": "70950ae48fabc65b288b7a465548c4e9e49b4732b35fc36ac15228e15a857fc4",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "10. 强化学习算法/01. Q-Learning.ipynb",
+      "sha256": "a72e1088b059f3a58543b308ffcdea47b4b41773f1b2df871774b7d81674b3a3",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "10. 强化学习算法/02. SARSA.ipynb",
+      "sha256": "aab484107a48227568dabf9f100ae32fbf306108c9c0705659df46de6d9aa3f2",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/07. 伽玛分布.ipynb",
+      "sha256": "b0270be94dfed20b1a80d33d6cf30eb14ee8acd31414e871e0390addd4e84178",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/10. 伯努利分布.ipynb",
+      "sha256": "dc4cb60053ce6d68adcd34c92c29c0e9d5160ae5056a258997ce5618952c4ca1",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/06. 几何分布.ipynb",
+      "sha256": "f688456c453656876c37d29ecf831e572dddae496cce115925be50c032ae1ffe",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/08. 卡方分布.ipynb",
+      "sha256": "01e7ff69268396e6f89691b057368c2471b0a1269df9c74becdf839a0510151b",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/05. 指数分布.ipynb",
+      "sha256": "d61c79113ecb2ace29739ba1c6f0bbc8700b49c29ea3783d9b7c3c085bb747fa",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/03. 二项分布.ipynb",
+      "sha256": "30a80b6dd8c5ccafe38a9e9115df5c5e62eef66ac639dd5a770c980618069d08",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/13. Dirichlet分布.ipynb",
+      "sha256": "51c5dc49352ec91d4dd6ccf82784dbf90826dbe886557ffa22139829aca0790f",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/01. 正态分布.ipynb",
+      "sha256": "49b81388b3297bac37755797cd85ff020d7ad5ceb393ee19be438a6735353f55",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/02. 均匀分布.ipynb",
+      "sha256": "31c9190e4d373f8eb9238a45b02b84c7f4ed7125b302cd000bcceb264967c8b1",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/11. 多项分布.ipynb",
+      "sha256": "17210821d1a55e19c8cd9d03a9f08e46d8871bd1d4e59b479d0a11172af00772",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/09. t分布.ipynb",
+      "sha256": "a01f853fef8583b59e7c8880bbac0afeb639b514bf70c5559546301acd3a6b9f",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/12. Beta分布.ipynb",
+      "sha256": "50d43423de06e57d3c59e35be426d7b3a84e33e5aa3151e2698695e8f12d48c8",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "4. 概率分布/04. 泊松分布.ipynb",
+      "sha256": "6c51bdee191d6fd2b5b70c3aedee32d672a5c11a7c6e33945b6dd251e590eb0f",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/05. 标准差法.ipynb",
+      "sha256": "7f4fb515488d5a8f47f93cd49f5e6121591240871a53f1dfc9a10f22958ce7ba",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/04. 剪尾法.ipynb",
+      "sha256": "d49e5d6266cc9f83465d8de2edd9e3cb4bcd19c30cc87f4728c11669f8e04cbc",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/09. 聚类法.ipynb",
+      "sha256": "923674a0b1452fa49fab2390ac16a0bbd653760cfb57f09846cbe35edd1cacca",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/03. 中位数填充.ipynb",
+      "sha256": "bf0a21d4be1d55f3ddc6f825b044797ee87d5ff3f93748713344a408605e42da",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/06. Z-Score 标准化.ipynb",
+      "sha256": "e6ac1828372f1c7b62a7be85689a9d8e0fc9c7cf8ab35b4199ccf6c0fa33ab16",
+      "code_cells": 10,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/01. 分箱法处理.ipynb",
+      "sha256": "82dd2adca9728e81346c5e949d31bbf2bbdb7900f34b490f167090337d5d7aa0",
+      "code_cells": 10,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/07. IQR（四分位距）法.ipynb",
+      "sha256": "a21a912f9a6438b829fb37fc8be824955fd244be20a1fe001f81753328125a30",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/02. 均值填充.ipynb",
+      "sha256": "ad22479f8aa34ac905f28f9da0683af06f596c34fe0a96db715705c001bb9624",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "20. 异常值处理方法/08. 箱线图分析.ipynb",
+      "sha256": "2c239f6a210bda24620fafeb81c2ec8d28bcf9a789c1ec1dabbf344f208f75ce",
+      "code_cells": 10,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/02. 混淆矩阵.ipynb",
+      "sha256": "2a77ad33d19927a38cc557862121c7958ac634a11b915ca000fb1720be66bb16",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/04. 精确率.ipynb",
+      "sha256": "19c49d6e81a467eb3f93bb8786c95df8ccbf62d759d47ad40fe264704c63b495",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/01. 交叉验证.ipynb",
+      "sha256": "a1fc8cef8c89e4b2ef6ea7498f73a43637c03cca579507c1dc45d5ee3515d97e",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/09. 均方误差.ipynb",
+      "sha256": "b864949a01297db1cd865bcb77211aafe6f332495f45204c6f417ab75189186e",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/05. 召回率.ipynb",
+      "sha256": "e30690f6df42a1138a3bcdeaa4ea46b7c3881feceb80b19c9772b61e546a981c",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/07. ROC 曲线.ipynb",
+      "sha256": "df3794d15fd8d21ceccbf3a779d65b8401e242c630a74fcd59ed04b8132569e1",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/03. 准确率.ipynb",
+      "sha256": "04eae89cd6152fb9899e1f9dde54c7f9b76e8dbad66b4c93483559f989db5b92",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/06. F1 分数.ipynb",
+      "sha256": "09e8cb13c22f680fb0dd010baeb9b56a2326cebb989609a1d520205e122d6e0f",
+      "code_cells": 11,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "17. 机器学习模型评估方法/08. AUC.ipynb",
+      "sha256": "1142e66b93920601a471947ad9d0992296a437d91b3db8ff091f1fba805fbbb1",
+      "code_cells": 10,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "19. 参数估计方法/01. 最大似然估计.ipynb",
+      "sha256": "0ac6ddaaf4a04ae0184a131c1dfdbbc3b869bd163b1703aea9f95fc173a9fb19",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "19. 参数估计方法/03. 最小二乘估计.ipynb",
+      "sha256": "07bae3422ea68d0ee9e61a83ecdf5252b089fe3d8ceac2a95c51b9c0dfa469d0",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "19. 参数估计方法/04. 最小化均方误差.ipynb",
+      "sha256": "129785978a47c04eb5894820981933f65a680f3bbd5546b46f9fa05ea06a9406",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "19. 参数估计方法/02. 贝叶斯估计.ipynb",
+      "sha256": "b56dd9febba620a1874e7f82719ee9a706761d93598628d8452be68373ff2772",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "19. 参数估计方法/05. EM算法.ipynb",
+      "sha256": "9e5865e0bc859a077cad1f5b7723606dbd063ea3ecf89a883f340a867c5d9060",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "15. 正则化方法/01. 正则化.ipynb",
+      "sha256": "1599537f2a7e232a188c25dd2ae498433523f9356203c225f23dc973d08e789f",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "15. 正则化方法/02. 弹性网络正则化.ipynb",
+      "sha256": "907324021e8ea9f0b4a82b858a0141c3cf3c91f2bbbdbd2cfd950a6cf0b8864e",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/10. Box-Cox 变换.ipynb",
+      "sha256": "af85306e28647e51dc83de5b9a13c802a1fe9ed7ec3fdf48d9564f73602855ae",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/04. 数据归一化.ipynb",
+      "sha256": "06a5edf7d9c5808a9d07bca38a85294e073e6cff5ee5f3f6ff682b19a1a01942",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/03. 最大绝对值缩放.ipynb",
+      "sha256": "f0e9291dbf2a4da81ee20f3c2d10865628db7b8ebc19ead23d348b1c47bc612c",
+      "code_cells": 10,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/08. 对数变换.ipynb",
+      "sha256": "551a919fbad2ee5f88cfa9fbdf3022fe5e7c7ab2257064f25180d263633e1ff8",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/05. Z-score 标准化.ipynb",
+      "sha256": "76713c428003cbf4ad19bc64798e7267bdfbb2d3750519f65cf93ffc3e23df10",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/02. 数据标准化.ipynb",
+      "sha256": "bda0e225a047e7a24762d250c8978c858762ab1866162ec52002940934571ffc",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/06. 分位数缩放.ipynb",
+      "sha256": "25e8928f5bc8761a76288cdf605347cf9deba03328b3c3a2ed9988438715ebd8",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/09. 平方根变换.ipynb",
+      "sha256": "da6fd2f6adb7a39aae3c427c1a9be9eae451880385392957becb4d1e5823d849",
+      "code_cells": 11,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/07. 二值化.ipynb",
+      "sha256": "a7ca58b36b952806d791ecf272c177c2273762449611c3f17c94093ea0b01272",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "18. 归一化方法/01. 最小-最大缩放.ipynb",
+      "sha256": "b002c3f3ce99ed4cd4136d8be0e8ea02f5c2866e4d66bc99805b11fe3ef9e0d2",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "16. 信息论/01. 相对熵.ipynb",
+      "sha256": "c4315bea7256a705f1feb221549c155b4ae59244a76a301fc1bb2d7f16b2935f",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "16. 信息论/03. 交叉熵.ipynb",
+      "sha256": "5b345470a2418bcf46f9a16732a883c98fa094276e84610009d33af7e4aea85f",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "16. 信息论/02. 互信息.ipynb",
+      "sha256": "d863d972d4d94ae7edb9e72f66deb1a4b64ef653bd2a25c361edfb23a33f6b7e",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "16. 信息论/04. 信息增益.ipynb",
+      "sha256": "99cdd37db2c603378a1176ee4388bb46ee383619e699c8fc04c96f62fa02b20d",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/02. 单变量特征选择.ipynb",
+      "sha256": "e83ae52337953d4ccabc4891b9a91713c423b027e18d07fba7a2cc7d9936e46b",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/07. 主成分分析.ipynb",
+      "sha256": "bebcaa5bc0e3661e87b80d9b00bae3a4ad0cd209115443a2638b6305ea146150",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/05. L2 正则化.ipynb",
+      "sha256": "be0464547d369ccf4db9a0b3ad00b9bbaa5d0e69099b7567c37099c9062b2288",
+      "code_cells": 15,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/10. 互信息法.ipynb",
+      "sha256": "6eb2162a0734d197a767f4f5384249880e60a254d6cf0a3076de2ad87d33d2e6",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/01. 方差阈值法.ipynb",
+      "sha256": "ff3af8409143bb7ecccf0c6ce180514be19d67f51e494eba880077af31a187b2",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/08. 相关系数法.ipynb",
+      "sha256": "8bc87fbe82dc147b0c1b2494fb852ab7baf679f443c7dd5da473e02e48826a78",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/09. 信息增益.ipynb",
+      "sha256": "6e8994f06d5f65d0f3bb494d9dda6580c116d645feb2417f4aa456e1d27fff2a",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/06. 嵌入法.ipynb",
+      "sha256": "31c342c59186c727651f9b417fb4dedf3460f6e864ec3a929d0c3f3a03f28c5a",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/04. L1 正则化.ipynb",
+      "sha256": "1fe243675286f3d2156ee60eb1b5031c844bc80f23b5d64d5a3a99ab27c5ae87",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "6. 特征选择方法/03. 基于树模型的特征选择.ipynb",
+      "sha256": "bfa926dc06b8930068c57757bd9706c4e41fa99d2bfba56f669123bef7d241f0",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/05. 局部线性嵌入.ipynb",
+      "sha256": "87f709b091b64252f9b53b1d9ebdab4b5d8e0094cc5bb1a53da3da8cb54b20ed",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/10. 核PCA.ipynb",
+      "sha256": "eea92c3bed2b9d3c8bf83f8a7091a6a2e0b279d401e1994b11e242afd5e1a362",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/07. 奇异值分解.ipynb",
+      "sha256": "831a0d90bef1e3fcd39cef0f85cec25ad4f3f34864438c1dde2318483d18feae",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/03. 独立成分分析 ICA.ipynb",
+      "sha256": "ecf2efbaf9f58fd72eae78e91996206879fade1dd929a32f750b8a86d6911cf7",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/11. 多维尺度分析（MDS）.ipynb",
+      "sha256": "dbb4a1f957c4de6fdba08509fdc99881f60d07745f97084b89d5eebaa88367c1",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/08. t-SNE.ipynb",
+      "sha256": "577edd1520a0a76f50c327ca4b7f6623601685ef4a399e118f38f50b06877421",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/09. UMAP.ipynb",
+      "sha256": "d41b3258613af828d3593e0357d972940987531918ee7f00dacc2c03050843fa",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/04. 因子分析.ipynb",
+      "sha256": "38e0fdea72a289dd05a0fd1ba550e05cc5276e26f049cb21e6f45e5ca9b21882",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/01. 主成分分析 PCA.ipynb",
+      "sha256": "3107a561ac0a066972ed513478837d4456b66ee5213371054d26c07d9bd9b8d3",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/02. 线性判别分析 LDA.ipynb",
+      "sha256": "f7f5f0935f0960ffd55a955585ae087e57c5cca5db53ba63fa3e218de3e0edb9",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "7. 降维技术/06. Isomap.ipynb",
+      "sha256": "cbe88e3fb9b0961214daaebf56a62e9e0ec24887782b4447c303dffdad0588e6",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/07. 随机森林.ipynb",
+      "sha256": "65ccd5af2813d1212fb8ff9435326ec0b8bd643ea187d950d120831aebbf3049",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/10. 梯度提升决策树（GBDT）.ipynb",
+      "sha256": "56f34be9d3baf9b0bb0010e4ed01533bea30250f2fda6ca84584254845d7b24a",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/06. 梯度提升.ipynb",
+      "sha256": "7e1762332cc873dae635a6ce199132f4b9902b77f5db85c0a9a0d5e2cf07da2f",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/08. AdaBoost.ipynb",
+      "sha256": "302f1a316240f650a8f3b0758debeb153e37f6a5e041b49fcd9eea138ce265d8",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/11. LightGBM.ipynb",
+      "sha256": "4b89a1283b284b9790166641a517bd7a8e04268aff34b582f06ff841c94c7d50",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/01. Bagging算法.ipynb",
+      "sha256": "93b85853b9e1186794d14e82a21ea05b983771af70822609350f8f826cdd33c0",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/05. 极端随机森林.ipynb",
+      "sha256": "994351d7113b3b720fa68641f68efc9685e69fd0fde38fbdaf4840384e357b43",
+      "code_cells": 11,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/02. Boosting算法.ipynb",
+      "sha256": "349c807f376cd7c8dc2d8ad14450ad7fda6b6d46361dd0db128a454a49a97fb9",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/09. XGBoost.ipynb",
+      "sha256": "b453f1c7593bf7c1729d8d818f428962cc610fbd6bfaf3ea9b25f9e1c3d4dc43",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/12. 因果推断.ipynb",
+      "sha256": "5459c8acfa8a06966912bddb7b3c6b6a2db9fce283ea2629291c8bcab4b97797",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/03. 堆叠.ipynb",
+      "sha256": "522d848e01332ad1fc661d2ff7bfac80a2cf7d2af5b46058477459c7adb0dc61",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "3. 集成算法/04. 投票法.ipynb",
+      "sha256": "75ee9efc198962c09a380fc36d1407dda8ea850926d80b46039b3b6068a1a63b",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/04. 自回归积分滑动平均.ipynb",
+      "sha256": "d702adb642ef361f7f7b82c29ac90fa2ad7991d158f3c08066ea1e8bf4230034",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/02. 移动平均.ipynb",
+      "sha256": "b9344198a9165e4dc0c1ab3fadf4dfea24b2d20d44d9c9cc18beec38a9552e58",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/01. 自回归.ipynb",
+      "sha256": "65bad3668613836608b9925d80ff2c0a42637bf2fa9219a5c55249baec32b79f",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/05. 向量自回归.ipynb",
+      "sha256": "c10c6623b53dafb677893b9cc467c569c52278e2f5f5868173fc83cb70caa011",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/07. Prophet.ipynb",
+      "sha256": "8cb5c1f57e83495d4a33845e172df46edb7a4c20b3793a00e24b5319d10a93a0",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/06. 向量自回归滑动平均.ipynb",
+      "sha256": "4bbab010418cf01a163d64040d7f40bfd715292275da090d9d0d49ee32451e84",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/10. XGBoost.ipynb",
+      "sha256": "26f31cfd2c94b64e9c5d2444b8b9223b4d15c43314b33e9594ea78985b34ad7d",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/08. Holt-Winters.ipynb",
+      "sha256": "f4fb84d2e921792dd7cdee0fcc8153f5053c89dd9f84788949338d55c0c4ca92",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "12. 时间序列分析方法/03. 自回归滑动平均.ipynb",
+      "sha256": "1f246f96d58debadec0fdd8b9d4936c39ea2067116dd695fea7754ff57e4e0a2",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/15. 局部加权回归.ipynb",
+      "sha256": "48644e145b934862cb2b1a3502819c7b3d82c3ad8e3f45684158b67286581cf2",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/13. 广义线性模型.ipynb",
+      "sha256": "c438145b78954897cb62554c3316b1a7e449df3e78bc2c8779bb1b0ff0fd3352",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/04. 弹性网络回归.ipynb",
+      "sha256": "a63334f5147894386b5aa12c201c6c1a49249c42a175b5f006e00dbdde6230ee",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/10. 贝叶斯回归.ipynb",
+      "sha256": "328937c4c99457fd5b4659ec26162608c30dcd6e6433134ff1a522c209f792d0",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/09. 梯度提升回归.ipynb",
+      "sha256": "61ca04a345e14d6577e16fddc2c58d71c08e8362924081a62eb745384c071c12",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/02. Ridge回归.ipynb",
+      "sha256": "b8e77354f0625c3c5184866df19da1d42d4e5003b4388e23bb6d951685dbf538",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/05. 多项式回归.ipynb",
+      "sha256": "5c0bbaad2e2338691490751c078f753c076cef5b5ca61bb06c514e15d1d3a43f",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/12. 高斯过程.ipynb",
+      "sha256": "af4f04f8a8f7e40908aec78b8fff006d00c554de24afb39f65c2689c7f5a751a",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/08. 随机森林回归.ipynb",
+      "sha256": "a60e32704de2421d2a39639f3bdfc9e8c22f0d43595534b23190ab92c5f93ade",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/01. 线性回归.ipynb",
+      "sha256": "503211397366eaf6061d4131ab72752db3ca6c9d1a677efd335808a88c0dbc15",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/06. 支持向量回归.ipynb",
+      "sha256": "56f079f317d4c17447ae6fdadec49afe3c1ce2915a5518d47cac1b3f34b28c3c",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/07. 决策树回归.ipynb",
+      "sha256": "01fed49febc835235f8f358902d5dbcb6c25750392e70a9efc13c79765763670",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/03. Lasso回归.ipynb",
+      "sha256": "239554315861b54a54489a232aa9390a090e7c6b6dde091b86524b37488b65c7",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/11. K近邻回归.ipynb",
+      "sha256": "b743ff054914eb70016b0bb4b283817307bb5a97882c4d4b8fd8a246cfa493eb",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "1. 回归算法/14. 多项式核回归.ipynb",
+      "sha256": "202e20e925b8be9ebba2ee782a27d28b0a533b3622056ab3e54e104d16908665",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/01. T检验.ipynb",
+      "sha256": "94520c612af12a7f6e6246242f3a9c8f21c79cddcd0d629a0bcf7c51e6ae1b3d",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/08. 正态性检验.ipynb",
+      "sha256": "51a1ec1f27324753bf683528d811822ee5e42e00606da674d7f370252a22d134",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/03. 方差分析.ipynb",
+      "sha256": "4ce05d0098eca846b383307101b78fbc61990be63162c3526d3fb22862ce1d27",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/06. 贝叶斯检验.ipynb",
+      "sha256": "86d58257af2118bcc20d2b05a46b1b3c25d5d89ae1e3701d82157b1111128b3b",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/02. 卡方检验.ipynb",
+      "sha256": "0f1470b80d1430872ae55556e741764effc3e71c0e5813a269f1261d55cf4872",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/04. 非参数检验.ipynb",
+      "sha256": "5fd05dd7847d20041ee8199e5d917e72df6eb316db5d6149fa7f9d1d573eec5c",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/07. 皮尔逊相关系数检验.ipynb",
+      "sha256": "aca33b4fc5f23b1f7a8b489aeedc7490259a723383ab0e223affa54e49c97d48",
+      "code_cells": 10,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/09. 方差齐性检验.ipynb",
+      "sha256": "454039f24aad72bed2365cbb8b19b1749c6243e51083cc7e64009f077f55d2ca",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "5. 统计检验方法/05. F检验.ipynb",
+      "sha256": "f69eb9c9f07d1c229922b0faad178488dfe66fa176c5a7e71b4902bc0501e746",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/09. 谱核.ipynb",
+      "sha256": "70b80393701b4fab69b209257d3f9110ad3c8adc5e6e1dfaac84b0b4a0dce102",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/04. 高斯核.ipynb",
+      "sha256": "f114448fe9f8c33be4209825eb400887401dd406e1c5f674a12554b79017ac87",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/06. Sigmoid核.ipynb",
+      "sha256": "9be8c23a70697d4ac75498de84f15d4b947bc4f75e48d275edad68aec2ad98da",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/02. 线性核.ipynb",
+      "sha256": "bc61538164ebac65468d3345881fbf7b35f5cc2a60c465d6ae8bcc9306df5b83",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/07. ANOVA核.ipynb",
+      "sha256": "fbc84db063683fdcbc7c4281434e1ecbf24904f110bc5fd298cc8ed2587f4c63",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/08. 多核学习.ipynb",
+      "sha256": "d4e71d0ae7f339c38cb11d7740cfaf9239dbd2a976ed1f5845beb7e7ed427737",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/05. 拉普拉斯核.ipynb",
+      "sha256": "47e3c328355e6beede2a50f2c0ae6f3df4a4a87706ebdbc8e2d447449ad20f1c",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/01. 核函数.ipynb",
+      "sha256": "4855e0a58c1d644a56d99a75d46ffcb9dc889c2583a9852b709a6c13c3a4a0d2",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "13. 核方法/03. 多项式核.ipynb",
+      "sha256": "2d6c4325735172c51385a8c03efec9419e73ec74f684bdae715bb34e11c43189",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/01. 均方误差.ipynb",
+      "sha256": "4dc280cfc81c28607a374f529be57e516b3af56698d867c9015be54b2fa6eea7",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/08. Huber损失.ipynb",
+      "sha256": "9c6de54fcbd71719bf76ba4487fc3a2200fe6303b0c3f6fc87278e28cdb6f6b8",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/07. 对数似然损失.ipynb",
+      "sha256": "a0d9d70df6f2726f0b290eb44cb8183377da83d9eac4f019c0122caf8e26cd61",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/02. 均方根误差.ipynb",
+      "sha256": "0827777eca6bff713cfe7f70fca667f13a86b159abee09060beab50f6b4114d8",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/06. 平方合页损失.ipynb",
+      "sha256": "1fa34ccc54d591a6ae04dc11cfd5156293bf40619548e40150e9aded44609d5a",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/09. KL散度.ipynb",
+      "sha256": "789f399f9e329cba04168c19d7417b347d4633755f03574d014528be4616f163",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/03. 平均绝对误差.ipynb",
+      "sha256": "8ba18fc074d02988462f17c6943feedae79375251ccfdac8b7d49660c74a671b",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/04. 交叉熵损失.ipynb",
+      "sha256": "ee24b13ddb53efc0b40091411eac8a7474a7041484f0b3066b7dc97959d21f29",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/10. 余弦相似性损失.ipynb",
+      "sha256": "12dbba92465bff9bbd1bfaa8986edf3a66510706707d1f6ac785154e941ca6f5",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "14. 损失函数/05. 二元交叉熵损失.ipynb",
+      "sha256": "f85ec95ac61486389768edff58c46b6ac30302f0f548748ab55f700689025eb0",
+      "code_cells": 9,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/08. Birch.ipynb",
+      "sha256": "7b08d095ae4a6413443ba392efb6fb470f239fa7a8a29d3702fb06530be31673",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/10. 期望最大化算法.ipynb",
+      "sha256": "c62789ef21a62f803a9b5433021ebb9b4b63eb3457fa386d4da38bc9be760f3b",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/05. 均值漂移.ipynb",
+      "sha256": "cc9db64769ffbbbd203482352303211322a631272cd71009868f8d61691f12cd",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/02. 层次聚类.ipynb",
+      "sha256": "02fc46f8257a6ffc165c169455ec737c6297dd526bf06ec622abce8b9bd298ed",
+      "code_cells": 5,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/09. 模糊C均值.ipynb",
+      "sha256": "1d3370ac6434ab19ac8aa999fe9321399c36ef80dda8a76f8d0597db638b3f97",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/04. GMM.ipynb",
+      "sha256": "21f546230130206d1d26dd46399f00756d9d81700da30152cf1e532e92eac944",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/06. 谱聚类.ipynb",
+      "sha256": "be784fd8e445ca82a8d640f23dd9f83fba77d1c1593cbd299f3586d2f22259bd",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/03. DBSCAN.ipynb",
+      "sha256": "81d85370e4b0d116c6c5b93b06458721a07f903d6191c54e2b24651508dd04f4",
+      "code_cells": 7,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/01. K-均值聚类.ipynb",
+      "sha256": "0706a2de42e49c312f2edbb5e42a3902171aed5a03f81600f98a94b8a8a4e762",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "9. 聚类算法/07. Mini-Batch K-means.ipynb",
+      "sha256": "abd97d23f43e78db0838f534650cb736b8d6ac121a48decd07e1e0802abc53d0",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/09. 共轭梯度法.ipynb",
+      "sha256": "8dcbd1d7b58fcec6528ea347e91b5c3eace973772840fb00f2e533d14ffefb4c",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/05. AdaGrad.ipynb",
+      "sha256": "0c2baac430879859b10c4d629a85aaea56ed667cf1374493cc22b5bb3d69d6ea",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/07. Adam优化器.ipynb",
+      "sha256": "a025463d62b014fe3ae70cafef854c3de54acbdf9c2b8ccb3d91e8bf994c5330",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/03. 随机梯度下降法.ipynb",
+      "sha256": "b5cdc79d7e2da9ff9d12eee3b1672c105a26461d81f51f6e3ee6adba7a5a795f",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/12. 贝叶斯优化.ipynb",
+      "sha256": "29e2b11a895a73f56a08f00ad2d1c6dd549aadfcf20c9ca8372bea7d7b8edd26",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/13. 网格搜索.ipynb",
+      "sha256": "a7bc36023c00ba83c91f1d6e97a23c4ed8afe11457504c984af6369bed8c790d",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/08. 牛顿方法.ipynb",
+      "sha256": "390070c39e48a3e716d463aeeea5785b9ae85245f0e15a087b2479c4992a821c",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/10. BFGS.ipynb",
+      "sha256": "305d5cbcdbe1ff5a5583bf15487d81e07f92155c8b8aebc2be066a38ef9a8765",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/04. 动量法.ipynb",
+      "sha256": "63f8346fe495c72bc6194db85b36cd0f81ad2fa516a1b4e1468648cf8bf91d12",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/06. RMSProp.ipynb",
+      "sha256": "5328fe35d6b8d2d03dbd782c8eb207980f16ccf0e0f2f5babdffe7f3aa200636",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/02. 批量梯度下降法.ipynb",
+      "sha256": "049d9194e2c0535192d18334ebe64793de0e95b50b95bb7dc07f37f63ce8de51",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/11. 超参数优化.ipynb",
+      "sha256": "cb0f86839ac6d12521ce13d9fe1a9217f718621a850f0ec2083a33b6b805d591",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "8. 优化算法/01. 梯度下降法.ipynb",
+      "sha256": "4a75181cd126932b2df97d3e73f68adfa2d99f5171e9223566fa5949b662cea3",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/04. 条件平均处理效应与元学习器.ipynb",
+      "sha256": "d533da9f2aec300e45ca4531f51d1072a7ac142dd0bcf359347780b05819f726",
+      "code_cells": 18,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/07. 因果效应模型的评价与验证.ipynb",
+      "sha256": "5f69e2945ca602ac19cd2cca39fd6f84b994d5d28864736e5034ce8cd88e1994",
+      "code_cells": 19,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/03. 双重机器学习与交互回归模型.ipynb",
+      "sha256": "19a368848b00ba16b46b5bfafa3a55675b3e67a2027686bfb70bccaf4d6be20d",
+      "code_cells": 18,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/08. 401k综合案例.ipynb",
+      "sha256": "91e3ae2379f94fb0ed46583e7f48aa8d822238f7ed61bba9777c52cb0aee4c79",
+      "code_cells": 19,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/05. DR-Learner与R-Learner.ipynb",
+      "sha256": "481ca557f908bc5806f48b8e49fa5d47195b1fd461da0a898e69a64439f21ba8",
+      "code_cells": 18,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/06. 因果树与因果森林.ipynb",
+      "sha256": "cdad37d0aaf0d32098556648c4a577238ab06f62cbf665c931a56796975d435f",
+      "code_cells": 18,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/02. 双重机器学习与部分线性模型.ipynb",
+      "sha256": "4312599abf70625dad2d51a89e46de6a14e31bd72203e24b4b0f367fc9e2baaa",
+      "code_cells": 18,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "22. 因果机器学习/01. 从FWL到Double Lasso.ipynb",
+      "sha256": "81ec51b351b260e5664aa0fc7eee52d33ef658c4cb2696b537398aa77386a526",
+      "code_cells": 17,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/05. 随机森林.ipynb",
+      "sha256": "298c13d079d7d034bba98d764909cb016de7a41a7bb867ee7e64b2dba31085aa",
+      "code_cells": 4,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/02. 决策树.ipynb",
+      "sha256": "186517509221a424f6c2d0fc32b213dc71d84c68e9dcb7061a6141a3bf3a4ab6",
+      "code_cells": 11,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/11. 高斯混合模型.ipynb",
+      "sha256": "6495b1b0f825b24057c42fd755e9e9f6551333ab02c3a30439d814bba4983939",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/04. C4.5.ipynb",
+      "sha256": "90412d42e17a31b601f99366e5c617a3cf1e4581f2b696cb874bb6d0f4924881",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/07. KNN.ipynb",
+      "sha256": "049588947832e126f5156252130f413e2e42195d01a7924970ba5749920b8869",
+      "code_cells": 6,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/06. 支持向量机.ipynb",
+      "sha256": "e160872f78528d83274e558fb79b613ff86d8558d7432892063c00d8b103e9db",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/03. ID3算法.ipynb",
+      "sha256": "cfe8794164ca83bc3d4d77ddc385f7d8d46d9e3a62a5a34e90479744d84311ff",
+      "code_cells": 3,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/09. XGBoost.ipynb",
+      "sha256": "289a15c0a712f6b157261bf79b0b732c34bb3efaf85cbd899bb5f63caf8e4359",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/01. 逻辑回归.ipynb",
+      "sha256": "f8247cc0161ff0d00ccfcb76559021d67ce8caf8e04ba3e9be1757f404413e6c",
+      "code_cells": 8,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/10. LightGBM.ipynb",
+      "sha256": "446e5aa8a1476e667f8e4403b2a059c12127331ba13e7c78125b214af292ce4c",
+      "code_cells": 11,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "2. 分类算法/08. 朴素贝叶斯.ipynb",
+      "sha256": "f14d748f0e77702c60ec00d48c2cf2cd2af1710fcaab1974c01480e4645aeeaf",
+      "code_cells": 2,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/02. 随机试验与统计推断.ipynb",
+      "sha256": "fc954d4ad895447eb50f59c0c02bc62a42baf8cfa3d67d7e614afb3bc287d5bd",
+      "code_cells": 23,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/01. 从相关到因果.ipynb",
+      "sha256": "8253a33ba52f1a96f0d1fadfca432f2af3470f7c08dee45e326ea531d5ce9235",
+      "code_cells": 22,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/09. 未测混杂与敏感性分析.ipynb",
+      "sha256": "61ce1c4cc1b97a0776c58a883103716b0ddc7a4b086746cc43d57a03c1d51f8f",
+      "code_cells": 22,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/07. 匹配与ATT.ipynb",
+      "sha256": "8fc8b9dadb93f3adc54dfec34a7007531fce067266a06051b96099ff5edb2faa",
+      "code_cells": 20,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/10. LaLonde综合案例.ipynb",
+      "sha256": "8c8cefb2b187fd32e29b7f062d592c7e6e65d77a472733feb420a2a40da6efd8",
+      "code_cells": 18,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/03. 因果图、混杂与识别假设.ipynb",
+      "sha256": "74f082d0bf35090b8425186a84f3814f3d5917b965e19e34cb84b9866f43bcbb",
+      "code_cells": 22,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/08. 双重稳健估计与AIPW.ipynb",
+      "sha256": "d9a977decb46a0ef8dc952660f5e997e1647e98b0c40514f8acd2f18b9459506",
+      "code_cells": 19,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/04. 回归调整与标准化.ipynb",
+      "sha256": "903037806dd6353cf4199bf6daf1023525c4580b38bfdc5f9edaf9ebe2f3ba5c",
+      "code_cells": 22,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/05. 倾向评分与协变量平衡.ipynb",
+      "sha256": "e27facd38a05b8390ac735464423cd76a75363485476e683f66799b301196758",
+      "code_cells": 20,
+      "ast_ok": true,
+      "nbformat_ok": true
+    },
+    {
+      "path": "21. 因果推断基础/06. 逆概率加权与重叠问题.ipynb",
+      "sha256": "766de7f1916722f320eddc3c39dcd8eb2aea7737c4e51d850f5871875845ea99",
+      "code_cells": 20,
+      "ast_ok": true,
+      "nbformat_ok": true
+    }
+  ],
+  "summary": {
+    "notebooks": 203,
+    "code_cells": 1219,
+    "errors": 0,
+    "executed": 99,
+    "latest_source_hash_matches": 99
+  },
+  "errors": []
+}

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:20:14.268408+00:00",
+  "semantic_code_sha256": "ce58d7db35c256d164c1d75256a6d8754f1e952166cdec13899b5e9f5c01f1ab",
   "notebook": "7. 降维技术/07. 奇异值分解.ipynb",
-  "signature": "cd63f7434b51c7f3308a307885d5714a70383d9d901a8accd49871c6aeaec6ec",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.79,
   "code_cells": 3,
+  "seconds": 1.81,
   "outputs": 5,
-  "figures": 5
+  "figures": 5,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

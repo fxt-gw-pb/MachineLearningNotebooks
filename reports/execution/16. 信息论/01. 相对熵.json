@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:16.957299+00:00",
+  "semantic_code_sha256": "6c9c42d0d1620b279161575cb420beb6dfba3f7155891daa65b2feea021c71ce",
   "notebook": "16. 信息论/01. 相对熵.ipynb",
-  "signature": "0bbb5ad9449fb3d316d344db883aa85aeebc1be7808eb033879bb9f5489f2f95",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.27,
   "code_cells": 3,
+  "seconds": 1.58,
   "outputs": 3,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

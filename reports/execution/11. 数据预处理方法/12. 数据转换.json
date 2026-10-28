@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:18:54.698812+00:00",
+  "semantic_code_sha256": "89561e0322017523f505290764d29a6179821237929cf39a31cd1ae9756525a7",
   "notebook": "11. 数据预处理方法/12. 数据转换.ipynb",
-  "signature": "94cee3999b3eff1509db428c920efa0dabdd801f3a541d573bdfd048cbcdb2cc",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.19,
   "code_cells": 14,
-  "outputs": 13,
-  "figures": 9
+  "seconds": 2.56,
+  "outputs": 14,
+  "figures": 9,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

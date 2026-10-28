@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:01.235191+00:00",
+  "semantic_code_sha256": "f6b8f0186c13aa60170d43816a0d495ef94b8e0b17309c5835f5f203cd461414",
   "notebook": "8. 优化算法/09. 共轭梯度法.ipynb",
-  "signature": "708b10d08d3d548ad722840d8fd3eabffcb52b8b69c96aba6a7d221794694ab9",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 4.51,
   "code_cells": 3,
-  "outputs": 3,
-  "figures": 3
+  "seconds": 1.38,
+  "outputs": 5,
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

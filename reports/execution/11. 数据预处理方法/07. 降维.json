@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:18:54.720067+00:00",
+  "semantic_code_sha256": "f64cc8fdcdc8ba2cfdcc274abab55c8c05d99a8b8786d64e2a668008fd287881",
   "notebook": "11. 数据预处理方法/07. 降维.ipynb",
-  "signature": "8c5101979d669fed02b135d4365df79fc7ba4223d467f5edb068aea938ee5e66",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.08,
   "code_cells": 13,
+  "seconds": 2.11,
   "outputs": 9,
-  "figures": 4
+  "figures": 4,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

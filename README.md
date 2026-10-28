@@ -54,7 +54,17 @@ Adam、网格搜索、数据增强、MDS 等通用内容保留；夹带的神经
 
 ## 验证与维护
 
-本次在 Python 3.13.9 上，使用 [固定依赖版本](requirements.txt) 独立启动内核逐份验证。**185 / 185 份通过，866 个代码单元全部执行，无错误输出；8095 个公式片段通过 MathJax 排版检查。** 还检查了图片链接、文件格式、可执行占位符及数据依赖。
+### 2026-10-28 核心修订
+
+逐篇复核了全部 203 份笔记，修订其中 184 份，19 份保持原样。重点是公式、数据泄漏、特征与目标的语义、评估流程及输出不能支持的结论，保留原有章节、案例与练习结构。
+
+99 份有实际执行代码变化的笔记已从头运行，476 个代码单元全部通过并刷新输出；其余笔记的执行代码未变，保留历史输出。这次使用 Python 3.12.14 和仓库固定的主要依赖版本，在独立 IPython 进程中逐单元执行。云环境不允许 Jupyter 内核开启本地通信端口，因此本次没有验证原生 Jupyter 内核通信；图像、表格、HTML 和交互图仍按实际执行结果保存。
+
+[修订说明](reports/revision-2026-10-28/修订说明.md) · [逐篇处置记录](reports/revision-2026-10-28/ledger.json) · [验证汇总](reports/revision-2026-10-28/summary.json)
+
+### 历史验证
+
+初次转写时在 Python 3.13.9 上，使用 [固定依赖版本](requirements.txt) 独立启动内核逐份验证。**185 / 185 份通过，866 个代码单元全部执行，无错误输出；8095 个公式片段通过 MathJax 排版检查。** 还检查了图片链接、文件格式、可执行占位符及数据依赖。
 
 - [逐份执行报告](reports/验证报告.md)
 - [机器可读汇总](reports/validation_summary.json)
@@ -79,7 +89,7 @@ python tools/validate_notebooks.py --workers 3
 python tools/validate_notebooks.py --retry --workers 3
 ```
 
-`tools/build_notebooks.py` 和 `tools/overrides.py` 保存了可追溯的转写规则，重新生成时需要原 Markdown 仍位于本文件夹的上一级；日常阅读、运行和复验 Notebook 不需要原目录。
+`tools/build_notebooks.py` 和 `tools/overrides.py` 保存了初次转写规则，不包含本轮对 Notebook 的逐篇修订。直接重新生成会覆盖后续更正，请先迁移修订再使用；日常阅读、运行和复验 Notebook 不需要原 Markdown 目录。
 
 接口适配参考：[scikit-learn OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)、[XGBoost Python API](https://xgboost.readthedocs.io/en/stable/python/python_api.html)、[PyMC sample](https://www.pymc.io/projects/docs/en/stable/api/generated/pymc.sample.html)。
 

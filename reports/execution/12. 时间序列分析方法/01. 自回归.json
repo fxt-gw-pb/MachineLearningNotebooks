@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:21:53.571705+00:00",
+  "semantic_code_sha256": "fb20eebffc0ed3074fd16bf5db3fdcdfb5c365a42ae76dc9b72da3c333f867e3",
   "notebook": "12. 时间序列分析方法/01. 自回归.ipynb",
-  "signature": "38d0e2c7380aea4ca13afede963e7c038f95998f9652b7dd543b714d946b0818",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.73,
   "code_cells": 2,
-  "outputs": 7,
-  "figures": 4
+  "seconds": 1.35,
+  "outputs": 6,
+  "figures": 4,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:15.757071+00:00",
+  "semantic_code_sha256": "345c6ee8278b75a9e0b4f195e936616de36b632b74bbf20d5a772e98282d2854",
   "notebook": "8. 优化算法/04. 动量法.ipynb",
-  "signature": "8d615fc768c6b91ce8e08a065cbfcdf4c692f9900afc6b167f12d4b11c46dd5f",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.57,
   "code_cells": 2,
+  "seconds": 1.32,
   "outputs": 2,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

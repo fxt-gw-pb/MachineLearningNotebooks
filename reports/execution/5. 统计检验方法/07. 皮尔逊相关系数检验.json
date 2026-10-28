@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:21.284764+00:00",
+  "semantic_code_sha256": "db24a999170bb0dd50df4cfe3e82c46730314db29e7141f1016946bcdbfb7c88",
   "notebook": "5. 统计检验方法/07. 皮尔逊相关系数检验.ipynb",
-  "signature": "7c0578fd234d907a27bdb4c92ba0b331a51242a232a25d3ba07e65023d8bfcc5",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.72,
   "code_cells": 10,
+  "seconds": 1.42,
   "outputs": 9,
-  "figures": 5
+  "figures": 5,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

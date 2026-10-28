@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:20:30.656914+00:00",
+  "semantic_code_sha256": "c57bd1aa45490a9504c1706c5a021540294c435d177bc9e7eb6aaf93c2ce0990",
   "notebook": "7. 降维技术/09. UMAP.ipynb",
-  "signature": "edfc14b5d8a51a70fe90a02e63cd129ec0c5017b45040e176d52d58c301675bf",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 15.71,
   "code_cells": 6,
+  "seconds": 18.63,
   "outputs": 6,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

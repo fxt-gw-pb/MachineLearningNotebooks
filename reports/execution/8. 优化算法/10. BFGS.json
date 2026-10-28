@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:13.109744+00:00",
+  "semantic_code_sha256": "1922db1ecbb186569a5abc07a44bf746beca53c419b99930c43d3df1a447d141",
   "notebook": "8. 优化算法/10. BFGS.ipynb",
-  "signature": "d4ef14f53a79bf46e02259049b77263f03ce2f7051dcb9af75e666e0367cb500",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.64,
   "code_cells": 3,
+  "seconds": 1.67,
   "outputs": 4,
-  "figures": 3
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

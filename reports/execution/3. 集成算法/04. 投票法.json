@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:21:47.432042+00:00",
+  "semantic_code_sha256": "1c9901e9fabb2e5126de6889ea47742bc9746b96010f94e1ee6aec3425af21b5",
   "notebook": "3. 集成算法/04. 投票法.ipynb",
-  "signature": "2fc78f781ed50588bb0494dfdbb2feb640e72f23a05ebe98a1deb6d7e0089193",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.01,
   "code_cells": 2,
-  "outputs": 7,
-  "figures": 2
+  "seconds": 4.02,
+  "outputs": 4,
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:01.678677+00:00",
+  "semantic_code_sha256": "a45971d6b4d44b2d16da2b8590a1197d5dbe9d1480030076b81c89574ff77a1a",
   "notebook": "10. 强化学习算法/01. Q-Learning.ipynb",
-  "signature": "3fef086a865dd8f8e56e23ddb345a9a23c772865c45f8eb9d2c7874304fd2034",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 1.98,
   "code_cells": 2,
-  "outputs": 1,
-  "figures": 1
+  "seconds": 0.97,
+  "outputs": 2,
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

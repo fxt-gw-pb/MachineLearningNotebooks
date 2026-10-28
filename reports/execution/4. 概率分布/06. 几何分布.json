@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:05.296817+00:00",
+  "semantic_code_sha256": "6acef56dcee8c1ceffd75aff420c6e2e32a170ea8a03b59be96fff948b969269",
   "notebook": "4. 概率分布/06. 几何分布.ipynb",
-  "signature": "d5a0bc23cd870af2ebaf1ef395ca8bde47db1f19a7a1ca9a2471fe4bc926820f",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.43,
   "code_cells": 3,
+  "seconds": 0.98,
   "outputs": 4,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

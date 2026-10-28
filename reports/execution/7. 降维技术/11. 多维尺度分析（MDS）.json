@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:20:21.693534+00:00",
+  "semantic_code_sha256": "b638472b2d75a7c23772936cd020b8881891eab63a0d45d64ee0933d0b143104",
   "notebook": "7. 降维技术/11. 多维尺度分析（MDS）.ipynb",
-  "signature": "39f87965b9219754d1efe27ff39cdc8c0b909fcd2a96fd90c4e97eafe21d67d0",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 9.77,
   "code_cells": 9,
+  "seconds": 11.15,
   "outputs": 4,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

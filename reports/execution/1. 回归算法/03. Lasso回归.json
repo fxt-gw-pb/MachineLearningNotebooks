@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:07.643226+00:00",
+  "semantic_code_sha256": "000332c0acaa26f8885656959fd7f51853399631c2772bf7281d7c0a0b30b2d6",
   "notebook": "1. 回归算法/03. Lasso回归.ipynb",
-  "signature": "59a81422fb2e71e390250396e700b3fe09361259cbe65c7d5383985829ddcecb",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.74,
   "code_cells": 7,
-  "outputs": 7,
-  "figures": 2
+  "seconds": 1.8,
+  "outputs": 6,
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

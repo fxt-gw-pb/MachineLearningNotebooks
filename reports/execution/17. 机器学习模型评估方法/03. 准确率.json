@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:11.826602+00:00",
+  "semantic_code_sha256": "3333d7db728d732e0eec7917f2354a47fefcbe884fdadd014e406fbe2e9b3b2b",
   "notebook": "17. 机器学习模型评估方法/03. 准确率.ipynb",
-  "signature": "ccb6e0bdb43588e8ba9336ca36baeb852f5310ed1e688df10fa8ec6f1d6b3f4e",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.85,
   "code_cells": 4,
+  "seconds": 1.42,
   "outputs": 7,
-  "figures": 3
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

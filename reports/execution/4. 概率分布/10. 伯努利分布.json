@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:04.290019+00:00",
+  "semantic_code_sha256": "b8b2c13a926a38b686d0e4c934dd70ad44c239e7c7434779744dab3d1f8cc603",
   "notebook": "4. 概率分布/10. 伯努利分布.ipynb",
-  "signature": "34ce731aec55530e022e4c594f79d96f93cac17ca59e0bd8c85fdfbaaad71145",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.35,
   "code_cells": 3,
+  "seconds": 0.96,
   "outputs": 2,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

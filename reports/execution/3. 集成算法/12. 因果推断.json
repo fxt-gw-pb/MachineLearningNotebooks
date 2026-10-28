@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:21:46.327519+00:00",
+  "semantic_code_sha256": "4b05d6537ef06ebeb6340778b557dd07c25da96397e8083c021e70847ac6d97f",
   "notebook": "3. 集成算法/12. 因果推断.ipynb",
-  "signature": "af6c630414f91c5bfee3355d3bcf4de2a8e34baee729bc0b30b3c92fe2c3f572",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.78,
   "code_cells": 2,
-  "outputs": 8,
-  "figures": 4
+  "seconds": 2.73,
+  "outputs": 5,
+  "figures": 4,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

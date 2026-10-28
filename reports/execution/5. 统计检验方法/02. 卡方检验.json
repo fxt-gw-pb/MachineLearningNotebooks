@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:16.898184+00:00",
+  "semantic_code_sha256": "cd130549b2ce9d071669606f120dc8b7831c9553a6413ea766c8d4780c06034e",
   "notebook": "5. 统计检验方法/02. 卡方检验.ipynb",
-  "signature": "72070dc41e35dd6bb2760ff55b1f13d35aa6dfec9c99e4c8bebbe6141423bb29",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.65,
   "code_cells": 4,
+  "seconds": 1.21,
   "outputs": 4,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

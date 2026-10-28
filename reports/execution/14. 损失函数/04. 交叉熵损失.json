@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:22:57.676968+00:00",
+  "semantic_code_sha256": "9cdaaf675f1abe79cd3135f00e0510f4753d9c8a899f0de378e7f22b82b3b864",
   "notebook": "14. 损失函数/04. 交叉熵损失.ipynb",
-  "signature": "d23b95150230418ea57cf7548f5a993eccd796734bf9dbbc273c45d3003dd079",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.56,
   "code_cells": 3,
+  "seconds": 1.2,
   "outputs": 4,
-  "figures": 3
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

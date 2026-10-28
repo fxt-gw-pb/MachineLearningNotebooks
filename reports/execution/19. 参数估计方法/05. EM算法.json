@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:14.424512+00:00",
+  "semantic_code_sha256": "1ce3d95f3cde5547933533640dd8002081fc3670336ce5d5b4ccd13e8a2091f8",
   "notebook": "19. 参数估计方法/05. EM算法.ipynb",
-  "signature": "d670e5f5d4041ab7ccffe722fde6f46100365e950b602bf9f0359ddc61c8e8a8",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.12,
   "code_cells": 2,
+  "seconds": 1.36,
   "outputs": 1,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

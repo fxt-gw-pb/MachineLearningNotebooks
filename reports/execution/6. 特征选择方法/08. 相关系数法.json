@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:30.692443+00:00",
+  "semantic_code_sha256": "c6b9adc7c3ee1ff715e5771b6a64176130291b3f5287d05ec5a8cab2b1b92eed",
   "notebook": "6. 特征选择方法/08. 相关系数法.ipynb",
-  "signature": "c16b27d8aad5ee7ed5cdad86ee36d955655df5a6fec3ecfb37048f48358f7bdc",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.43,
   "code_cells": 3,
-  "outputs": 6,
-  "figures": 3
+  "seconds": 1.14,
+  "outputs": 5,
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:20.308312+00:00",
+  "semantic_code_sha256": "a90d7b4a954bc6338418533c75e7e3ff2b4532e13abde0fad9132497773ced60",
   "notebook": "8. 优化算法/11. 超参数优化.ipynb",
-  "signature": "713509ade668405e47e6d019b3ce0765498179a584396cb9127617986154c62b",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 6.58,
   "code_cells": 8,
+  "seconds": 7.19,
   "outputs": 7,
-  "figures": 4
+  "figures": 4,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

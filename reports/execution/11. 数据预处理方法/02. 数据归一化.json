@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:01.007793+00:00",
+  "semantic_code_sha256": "868db8752eb95cd439ae9b48fd863d9ffe57394c5c412515ce11594ad5d6ce88",
   "notebook": "11. 数据预处理方法/02. 数据归一化.ipynb",
-  "signature": "5eebd7f695e47aebab0f040fbad4fd20776c01dd12d523be1cf50e74031fefad",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.32,
   "code_cells": 2,
+  "seconds": 1.29,
   "outputs": 1,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:32.582455+00:00",
+  "semantic_code_sha256": "c93e8686e03df8468c1dce734fa2e2ab09c1ab9c626a642f6b16619d73a22c4e",
   "notebook": "6. 特征选择方法/06. 嵌入法.ipynb",
-  "signature": "98feed332823d2ab08054b93c0b9f7f0f749444ab56d47e4be4acc7cf44190c3",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.95,
   "code_cells": 3,
-  "outputs": 8,
-  "figures": 4
+  "seconds": 2.67,
+  "outputs": 7,
+  "figures": 4,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

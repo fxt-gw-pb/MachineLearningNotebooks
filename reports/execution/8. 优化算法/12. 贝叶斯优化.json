@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:03.507686+00:00",
+  "semantic_code_sha256": "5944c82afdf6c63cfea4594c22a696beb39e015fcf80e8faccd9b67d0defebe2",
   "notebook": "8. 优化算法/12. 贝叶斯优化.ipynb",
-  "signature": "7187c2e880f1dc7b161b64688a0236b462c65cd49c8a4276f8649ffc2b960a3d",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 3.89,
   "code_cells": 2,
-  "outputs": 7,
-  "figures": 1
+  "seconds": 3.87,
+  "outputs": 2,
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

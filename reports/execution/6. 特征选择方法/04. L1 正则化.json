@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:32.723695+00:00",
+  "semantic_code_sha256": "8c3964630b69fb122629704bb45f6fda1e9a092617d7217e6014e30df805e939",
   "notebook": "6. 特征选择方法/04. L1 正则化.ipynb",
-  "signature": "d4ba2286e88a7cc730e5353e92f775be28d742e9dd6c7df34343ac5d632113f5",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.03,
   "code_cells": 2,
+  "seconds": 1.87,
   "outputs": 2,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

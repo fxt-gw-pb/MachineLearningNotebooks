@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:22.400912+00:00",
+  "semantic_code_sha256": "a00aad77e2bfc18723b435794b6eaa85ab2e4dc4e59b26ec4a8302205ad58ea6",
   "notebook": "6. 特征选择方法/10. 互信息法.ipynb",
-  "signature": "6ae1787332b798a490233f18ee2c8d1042cbbb5b563ef6cc99473dd5b07c9474",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 6.17,
   "code_cells": 4,
-  "outputs": 9,
-  "figures": 3
+  "seconds": 9.17,
+  "outputs": 7,
+  "figures": 3,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

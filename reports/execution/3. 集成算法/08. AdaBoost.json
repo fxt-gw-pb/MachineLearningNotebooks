@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:21:04.748729+00:00",
+  "semantic_code_sha256": "377a5ab22703618fa660d6eb430cc49f845df4a8f1c8c335c86e05c175986ce7",
   "notebook": "3. 集成算法/08. AdaBoost.ipynb",
-  "signature": "3901c7f71841b7b92f1798081e796d9d08caa3b34e30aac3f8aa5ce5ee1bcacc",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 397.0,
   "code_cells": 5,
-  "outputs": 51,
-  "figures": 5
+  "seconds": 537.9,
+  "outputs": 9,
+  "figures": 5,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

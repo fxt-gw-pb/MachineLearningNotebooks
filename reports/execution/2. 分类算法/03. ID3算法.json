@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:23:28.625127+00:00",
+  "semantic_code_sha256": "c001a35a55496b58e2822ae11524fc3d16da0fe843bf7505e1d35fe46647a7e2",
   "notebook": "2. 分类算法/03. ID3算法.ipynb",
-  "signature": "f388e43f4af942827df1d44c302904a8c17f8289400831ed686a9701eead2685",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.62,
   "code_cells": 3,
+  "seconds": 1.21,
   "outputs": 3,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

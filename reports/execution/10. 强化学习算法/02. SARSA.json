@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:03.156319+00:00",
+  "semantic_code_sha256": "2653b2a9c7d0085e1000416f4c084ca1a68dbecc7b9614e381fc7a53c813c756",
   "notebook": "10. 强化学习算法/02. SARSA.ipynb",
-  "signature": "c4c56b15bbcb9028f9e5c6d3c80103f364681c26d48f2c193a7d044216e38fd2",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.1,
   "code_cells": 2,
+  "seconds": 1.26,
   "outputs": 1,
-  "figures": 1
+  "figures": 1,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

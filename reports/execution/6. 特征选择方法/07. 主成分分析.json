@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:20.008991+00:00",
+  "semantic_code_sha256": "5d8cc8473f82d0d85188353d2211657ac051e8677e8ad43cf8cac61bcb4de4f5",
   "notebook": "6. 特征选择方法/07. 主成分分析.ipynb",
-  "signature": "f25e55b9e426087dbeb2ab6d8c73264186c29d3f6e39946b8fa24df20be103e6",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.49,
   "code_cells": 6,
+  "seconds": 1.17,
   "outputs": 5,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }

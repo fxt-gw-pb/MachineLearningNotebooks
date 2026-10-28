@@ -1,9 +1,25 @@
 {
+  "started_utc": "2026-10-28T04:19:03.459518+00:00",
+  "semantic_code_sha256": "26b7a4dead888d89a7583f2fcbe0bd389326ddd404787d5f7f1899d0908bcce1",
   "notebook": "4. 概率分布/07. 伽玛分布.ipynb",
-  "signature": "0197f835f83538f690ba6fe6621ad79dfaeef3d0939979b4fbed5d4e6c7aaa3f",
+  "method": "isolated IPython process; no Jupyter transport",
   "status": "passed",
-  "seconds": 2.47,
   "code_cells": 4,
+  "seconds": 1.04,
   "outputs": 3,
-  "figures": 2
+  "figures": 2,
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.0",
+    "nbformat": "5.10.4",
+    "ipython": "9.16.1"
+  },
+  "font_configuration": "Installed Noto Sans CJK collection registered as requested SC family; no notebook source changes"
 }
